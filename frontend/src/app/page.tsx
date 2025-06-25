@@ -33,7 +33,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background text-foreground flex items-center justify-center">
+    <div className="min-h-screen bg-slate-900 text-slate-100 flex items-center justify-center">
       <div className="text-center">
         <h1 className="text-4xl font-bold mb-8">Next.js Frontend</h1>
         <div className="text-xl">
