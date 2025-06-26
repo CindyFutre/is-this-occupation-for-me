@@ -44,6 +44,36 @@ class JobAnalysisResponse(BaseModel):
     suggestions: Optional[List[JobSuggestion]] = None
     data: Optional[JobInsightsReport] = None
 
+class DataSource(BaseModel):
+    """
+    Represents a data source in job metadata.
+    """
+    data_name: Optional[str] = Field(None, alias="DataName")
+    data_source_name: Optional[str] = Field(None, alias="DataSourceName")
+    data_source_url: Optional[str] = Field(None, alias="DataSourceUrl")
+    data_last_update: Optional[str] = Field(None, alias="DataLastUpdate")
+    data_vintage_or_version: Optional[str] = Field(None, alias="DataVintageOrVersion")
+    data_description: Optional[str] = Field(None, alias="DataDescription")
+    data_source_citation: Optional[str] = Field(None, alias="DataSourceCitation")
+    
+    class Config:
+        populate_by_name = True
+        allow_population_by_field_name = True
+
+class JobMetaData(BaseModel):
+    """
+    Represents metadata for a job posting.
+    """
+    publisher: Optional[str] = Field(None, alias="Publisher")
+    sponsor: Optional[str] = Field(None, alias="Sponsor")
+    last_access_date: Optional[int] = Field(None, alias="LastAccessDate")
+    citation_suggested: Optional[str] = Field(None, alias="CitationSuggested")
+    data_source: Optional[List[DataSource]] = Field(None, alias="DataSource")
+    
+    class Config:
+        populate_by_name = True
+        allow_population_by_field_name = True
+
 class Job(BaseModel):
     """
     Represents a job posting from the CareerOneStop API.
@@ -55,6 +85,13 @@ class Job(BaseModel):
     url: str = Field(..., alias="URL", description="Job posting URL")
     location: str = Field(..., alias="Location", description="Job location")
     fc: str = Field(..., alias="Fc", description="FC field")
+    
+    # Enhanced fields from detailed job API
+    date_posted: Optional[str] = Field(None, alias="DatePosted", description="Date when job was posted")
+    description: Optional[str] = Field(None, alias="Description", description="Full job description")
+    onet_codes: Optional[List[str]] = Field(None, alias="OnetCodes", description="O*NET SOC codes")
+    meta_data: Optional[JobMetaData] = Field(None, alias="MetaData", description="Job metadata")
+    soc_codes: Optional[List[str]] = Field(None, description="SOC codes extracted from OnetCodes")
     
     class Config:
         populate_by_name = True
