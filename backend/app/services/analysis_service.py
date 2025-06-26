@@ -34,6 +34,46 @@ class TermAnalyzer:
         
         # Custom normalization dictionary for synonyms and variations
         self.normalization_dict = {
+            # Electrical work activities
+            'running wire': 'running and pulling wire',
+            'pulling wire': 'running and pulling wire',
+            'wire running': 'running and pulling wire',
+            'wire pulling': 'running and pulling wire',
+            'run wire': 'running and pulling wire',
+            'pull wire': 'running and pulling wire',
+            'running and pulling wire': 'running and pulling wire',
+            
+            'bending conduit': 'running and bending conduit',
+            'conduit bending': 'running and bending conduit',
+            'bend conduit': 'running and bending conduit',
+            'running conduit': 'running and bending conduit',
+            'conduit running': 'running and bending conduit',
+            'running and bending conduit': 'running and bending conduit',
+            
+            'installing lights': 'installing lights and outlets',
+            'installing outlets': 'installing lights and outlets',
+            'light installation': 'installing lights and outlets',
+            'outlet installation': 'installing lights and outlets',
+            'install lights': 'installing lights and outlets',
+            'install outlets': 'installing lights and outlets',
+            'installing lights and outlets': 'installing lights and outlets',
+            
+            'low voltage work': 'low voltage work',
+            'low voltage': 'low voltage work',
+            'low voltage installation': 'low voltage work',
+            'low voltage systems': 'low voltage work',
+            
+            'industrial work': 'industrial electrical work',
+            'industrial electrical': 'industrial electrical work',
+            'industrial electrical work': 'industrial electrical work',
+            
+            'electrical terminations': 'terminations',
+            'wire terminations': 'terminations',
+            'cable terminations': 'terminations',
+            'terminating': 'terminations',
+            'terminate': 'terminations',
+            'terminations': 'terminations',
+            
             # Programming languages and frameworks
             'javascript': 'javascript',
             'js': 'javascript',
@@ -403,14 +443,17 @@ class TermAnalyzer:
             posting_activities = set()
             
             for activity, sentence in activities_with_context:
-                if activity not in posting_activities:
-                    posting_activities.add(activity)
-                    activity_contexts[activity]['count'] += 1
-                    activity_contexts[activity]['postings'].add(i)
+                # Normalize the activity to group similar terms
+                normalized_activity = self.normalize_term(activity)
+                
+                if normalized_activity not in posting_activities:
+                    posting_activities.add(normalized_activity)
+                    activity_contexts[normalized_activity]['count'] += 1
+                    activity_contexts[normalized_activity]['postings'].add(i)
                 
                 # Always add sentences for context (up to 3 per activity)
-                if len(activity_contexts[activity]['sentences']) < 3:
-                    activity_contexts[activity]['sentences'].add(sentence)
+                if len(activity_contexts[normalized_activity]['sentences']) < 3:
+                    activity_contexts[normalized_activity]['sentences'].add(sentence)
         
         # Categorize and rank activities
         categorized_terms = {
@@ -432,8 +475,9 @@ class TermAnalyzer:
             if len(activity) < 15 or activity.lower() in ['work', 'job', 'position', 'role', 'duties']:
                 continue
             
-            # Only include activities that appear in at least 2 postings
-            if data['count'] >= 2:
+            # Include activities that appear in multiple postings for better synthesis
+            # Lowered threshold to capture more diverse content while filtering noise
+            if data['count'] >= 2 or len(data['postings']) >= 2:
                 category = self.categorize_activity(activity, list(data['sentences']))
                 
                 # Clean context sentences
