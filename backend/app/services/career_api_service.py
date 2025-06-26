@@ -39,7 +39,7 @@ async def fetch_job_details(job_id: str, settings: Settings) -> Dict[str, Any]:
             print(f"An error occurred while requesting job details for job ID {job_id}: {e}")
             return {}
 
-async def enrich_job_with_details(job: Dict[str, Any], settings: Settings) -> Dict[str, Any]:
+async def enrich_job_with_details(job: Dict[str, Any], settings: Settings, search_soc_code: str = None) -> Dict[str, Any]:
     """
     Enriches a job posting with detailed information from the job details API.
     """
@@ -60,6 +60,10 @@ async def enrich_job_with_details(job: Dict[str, Any], settings: Settings) -> Di
         onet_codes = job_details.get("OnetCodes", [])
         if onet_codes:
             job["soc_codes"] = onet_codes
+    
+    # Add the search SOC code that was used to find this job
+    if search_soc_code:
+        job["soc_code"] = search_soc_code
     
     return job
 
@@ -120,7 +124,7 @@ async def fetch_postings(soc_code: str, location: str, settings: Settings) -> Li
                     batch = job_set[i:i + batch_size]
                     
                     # Create tasks for concurrent processing of the batch
-                    tasks = [enrich_job_with_details(job, settings) for job in batch]
+                    tasks = [enrich_job_with_details(job, settings, soc_code) for job in batch]
                     enriched_batch = await asyncio.gather(*tasks, return_exceptions=True)
                     
                     # Filter out any exceptions and add successful enrichments

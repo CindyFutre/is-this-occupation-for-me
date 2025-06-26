@@ -14,7 +14,7 @@ class Settings(BaseSettings):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        # Load supported jobs from the new csv file
+        # Load supported jobs from the CSV file with 100 SOC codes
         self.supported_jobs = []
         config_path = pathlib.Path(__file__).parent.parent.parent / "config" / "onet_soc_codes.csv"
         try:
@@ -27,6 +27,7 @@ class Settings(BaseSettings):
                         if ',' in data:
                             title, soc_code = data.rsplit(',', 1)
                             self.supported_jobs.append({"title": title.strip(), "soc_code": soc_code.strip()})
+            print(f"Loaded {len(self.supported_jobs)} supported job titles from CSV config.")
         except FileNotFoundError:
             # Handle case where file might not exist
             print(f"Warning: {config_path} not found. Supported jobs list will be empty.")

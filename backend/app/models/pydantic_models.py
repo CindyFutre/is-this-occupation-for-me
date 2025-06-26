@@ -58,7 +58,6 @@ class DataSource(BaseModel):
     
     class Config:
         populate_by_name = True
-        allow_population_by_field_name = True
 
 class JobMetaData(BaseModel):
     """
@@ -72,7 +71,6 @@ class JobMetaData(BaseModel):
     
     class Config:
         populate_by_name = True
-        allow_population_by_field_name = True
 
 class Job(BaseModel):
     """
@@ -92,10 +90,10 @@ class Job(BaseModel):
     onet_codes: Optional[List[str]] = Field(None, alias="OnetCodes", description="O*NET SOC codes")
     meta_data: Optional[JobMetaData] = Field(None, alias="MetaData", description="Job metadata")
     soc_codes: Optional[List[str]] = Field(None, description="SOC codes extracted from OnetCodes")
+    soc_code: Optional[str] = Field(None, description="Primary SOC code used for search/categorization")
     
     class Config:
         populate_by_name = True
-        allow_population_by_field_name = True
 
 class JobInsertResponse(BaseModel):
     """
