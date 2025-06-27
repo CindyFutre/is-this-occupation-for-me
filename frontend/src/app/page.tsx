@@ -85,43 +85,58 @@ export default function Home() {
         </div>
 
         {/* Search Form */}
-        <div className="max-w-2xl mx-auto mb-8">
-          <Card className="bg-slate-800 border-slate-700">
-            <CardHeader>
-              <CardTitle className="text-slate-100">Search Job Market</CardTitle>
-              <CardDescription className="text-slate-400">
-                Enter a job title to analyze current market demands
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <form onSubmit={handleSubmit} className="space-y-4">
+        <div className="max-w-xl mx-auto mb-8" style={{ maxWidth: '497px' }}>
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-slate-100 mb-2">Search Job Market</h2>
+            <p className="text-slate-400">
+              Enter a job title to analyze current market demands
+            </p>
+          </div>
+          <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
                   <label htmlFor="job-title" className="block text-sm font-medium text-slate-300 mb-2">
                     Job Title *
                   </label>
-                  <Input
-                    id="job-title"
-                    type="text"
-                    placeholder="e.g., Software Developer, Financial Manager, Registered Nurse"
-                    value={query}
-                    onChange={(e) => setQuery(e.target.value)}
-                    className="bg-slate-700 border-slate-600 text-slate-100 placeholder:text-slate-400"
-                    disabled={isLoading}
-                  />
+                  <div className="relative">
+                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                      <svg className="h-5 w-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                      </svg>
+                    </div>
+                    <Input
+                      id="job-title"
+                      type="text"
+                      placeholder="e.g., Software Developer, Financial Manager, Registered Nurse"
+                      value={query}
+                      onChange={(e) => setQuery(e.target.value)}
+                      className="pl-10 bg-slate-700 border-slate-600 text-slate-100 placeholder:text-slate-400 rounded-full"
+                      style={{ padding: '12px 14px 12px 40px', fontSize: '1.1rem' }}
+                      disabled={isLoading}
+                    />
+                  </div>
                 </div>
                 <div>
                   <label htmlFor="location" className="block text-sm font-medium text-slate-300 mb-2">
                     Location (Optional)
                   </label>
-                  <Input
-                    id="location"
-                    type="text"
-                    placeholder="e.g., Seattle,WA or leave blank for nationwide"
-                    value={location}
-                    onChange={(e) => setLocation(e.target.value)}
-                    className="bg-slate-700 border-slate-600 text-slate-100 placeholder:text-slate-400"
-                    disabled={isLoading}
-                  />
+                  <div className="relative">
+                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                      <svg className="h-5 w-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                    </div>
+                    <Input
+                      id="location"
+                      type="text"
+                      placeholder="e.g., Seattle,WA or leave blank for nationwide"
+                      value={location}
+                      onChange={(e) => setLocation(e.target.value)}
+                      className="pl-10 bg-slate-700 border-slate-600 text-slate-100 placeholder:text-slate-400 rounded-full"
+                      style={{ padding: '12px 14px 12px 40px', fontSize: '1.1rem' }}
+                      disabled={isLoading}
+                    />
+                  </div>
                 </div>
                 <Button 
                   type="submit" 
@@ -131,8 +146,6 @@ export default function Home() {
                   {isLoading ? 'Analyzing Job Market...' : 'Analyze Job Market'}
                 </Button>
               </form>
-            </CardContent>
-          </Card>
         </div>
 
         {/* Error Message */}
