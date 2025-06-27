@@ -68,9 +68,20 @@ export default function Home() {
             Is this occupation for me?
           </h1>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
-            Analyze real-time job market data to get clear insights into any profession. 
+            Analyze real-time job market data to get clear insights into any profession.
             Discover what employers really want in terms of responsibilities, skills, and qualifications.
           </p>
+          
+          {/* SOC Analysis Link */}
+          <div className="mt-6">
+            <Button
+              onClick={() => router.push('/soc-analysis')}
+              variant="outline"
+              className="bg-slate-800 border-slate-600 text-slate-300 hover:bg-slate-700"
+            >
+              🔍 View SOC Code Analysis Results
+            </Button>
+          </div>
         </div>
 
         {/* Search Form */}
