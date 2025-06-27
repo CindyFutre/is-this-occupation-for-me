@@ -12,6 +12,7 @@ from app.models.pydantic_models import (
 )
 from app.services import career_api_service
 from app.services.analysis_service import generate_report_from_postings
+from app.services.cache_service import cache_service
 from app.db.mongodb import insert_jobs_from_job_set, get_jobs_by_criteria, get_job_count
 
 router = APIRouter()
@@ -70,13 +71,23 @@ async def analyze_job(
             suggestions=suggestions
         )
     
+    # Check for cached analysis first
+    soc_code = exact_match["soc_code"]
+    job_title = exact_match["title"]
+    
+    cached_report = cache_service.get_cached_analysis(soc_code, job_title)
+    if cached_report:
+        return JobAnalysisResponse(
+            success=True,
+            data=cached_report
+        )
+    
     # Fetch job postings from MongoDB for the matched job
     try:
         # Query MongoDB for jobs with this SOC code
         filters = {}
         
         # Try multiple SOC code field patterns
-        soc_code = exact_match["soc_code"]
         filters = {
             "$or": [
                 {"soc_code": soc_code},
@@ -92,21 +103,24 @@ async def analyze_job(
         
         if not raw_postings:
             # If no jobs found by SOC code, try job title matching
-            title_filters = {"JobTitle": {"$regex": exact_match["title"], "$options": "i"}}
+            title_filters = {"JobTitle": {"$regex": job_title, "$options": "i"}}
             raw_postings = await get_jobs_by_criteria(limit=100, **title_filters)
         
         if not raw_postings:
             raise HTTPException(
                 status_code=status.HTTP_404_NOT_FOUND,
-                detail=f"No job postings found for {exact_match['title']} (SOC {soc_code}) in database"
+                detail=f"No job postings found for {job_title} (SOC {soc_code}) in database"
             )
         
         # Generate structured report using analysis service
         report = generate_report_from_postings(
             raw_postings,
-            exact_match["title"],
-            exact_match["soc_code"]
+            job_title,
+            soc_code
         )
+        
+        # Cache the analysis results
+        cache_service.cache_analysis(soc_code, job_title, report)
         
         return JobAnalysisResponse(
             success=True,
@@ -178,4 +192,45 @@ async def list_jobs(
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Failed to retrieve jobs: {str(e)}"
+        )
+
+
+@router.get("/cache/stats")
+async def get_cache_stats():
+    """
+    Get statistics about the analysis cache.
+    """
+    try:
+        stats = cache_service.get_cache_stats()
+        return {
+            "success": True,
+            "cache_stats": stats
+        }
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to get cache stats: {str(e)}"
+        )
+
+
+@router.delete("/cache/clear")
+async def clear_cache(
+    soc_code: str = None,
+    job_title: str = None
+):
+    """
+    Clear analysis cache. If soc_code and job_title are provided,
+    only clear cache for that specific analysis.
+    """
+    try:
+        removed_count = cache_service.clear_cache(soc_code, job_title)
+        return {
+            "success": True,
+            "message": f"Cleared {removed_count} cached analysis files",
+            "removed_count": removed_count
+        }
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to clear cache: {str(e)}"
         )
