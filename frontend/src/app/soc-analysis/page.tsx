@@ -141,16 +141,16 @@ export default function SOCAnalysisPage() {
           <Table>
             <TableHeader>
               <TableRow className="border-slate-700 hover:bg-slate-800/50">
-                <TableHead className="text-slate-300 font-semibold py-4 px-6">
+                <TableHead className="text-slate-300 font-semibold py-4 px-6" style={{ width: '25%' }}>
                   <div className="flex items-center gap-2">
                     <span className="text-lg">{getEmoji(category)}</span>
                     Term
                   </div>
                 </TableHead>
-                <TableHead className="text-slate-300 font-semibold py-4 px-6 text-center w-32">
+                <TableHead className="text-slate-300 font-semibold py-4 px-6 text-center" style={{ width: '50%' }}>
                   Frequency
                 </TableHead>
-                <TableHead className="text-slate-300 font-semibold py-4 px-6">
+                <TableHead className="text-slate-300 font-semibold py-4 px-6" style={{ width: '25%' }}>
                   Context Examples
                 </TableHead>
               </TableRow>
@@ -162,7 +162,7 @@ export default function SOCAnalysisPage() {
                   className="border-slate-700 hover:bg-slate-800/30 transition-colors duration-200"
                 >
                   <TableCell className="py-6 px-6">
-                    <div className="font-medium text-slate-100 text-base leading-relaxed">
+                    <div className="font-bold text-slate-100 text-base leading-relaxed">
                       {term.term}
                     </div>
                   </TableCell>
