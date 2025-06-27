@@ -148,30 +148,49 @@ export default function Home() {
 
         {/* Suggestions */}
         {suggestions.length > 0 && (
-          <div className="max-w-2xl mx-auto mb-8">
-            <Card className="bg-slate-800 border-slate-700">
-              <CardHeader>
-                <CardTitle className="text-slate-100">Did you mean one of these?</CardTitle>
-                <CardDescription className="text-slate-400">
-                  We found similar job titles that we can analyze
-                </CardDescription>
+          <div className="max-w-3xl mx-auto mb-8">
+            <Card className="bg-slate-800/70 border-slate-700 shadow-xl">
+              <CardHeader className="pb-4">
+                <div className="flex items-center gap-3">
+                  <div className="p-2 rounded-lg bg-gradient-to-br from-blue-500 to-cyan-500">
+                    <span className="text-xl">🎯</span>
+                  </div>
+                  <div>
+                    <CardTitle className="text-slate-100 text-xl">Did you mean one of these?</CardTitle>
+                    <CardDescription className="text-slate-400">
+                      We found {suggestions.length} similar job titles that we can analyze
+                    </CardDescription>
+                  </div>
+                </div>
               </CardHeader>
               <CardContent>
-                <div className="grid gap-2">
+                <div className="grid gap-3">
                   {suggestions.map((suggestion, index) => (
                     <button
                       key={index}
                       onClick={() => handleSuggestionClick(suggestion)}
-                      className="flex items-center justify-between p-3 rounded-lg bg-slate-700 hover:bg-slate-600 transition-colors text-left"
+                      className="group flex items-center justify-between p-4 rounded-xl bg-slate-700/50 hover:bg-slate-600/70 transition-all duration-300 text-left border border-slate-600 hover:border-slate-500 hover:shadow-lg transform hover:scale-[1.02]"
                       disabled={isLoading}
                     >
-                      <div>
-                        <div className="font-medium text-slate-100">{suggestion.title}</div>
-                        <div className="text-sm text-slate-400">SOC Code: {suggestion.soc_code}</div>
+                      <div className="flex-1">
+                        <div className="font-semibold text-slate-100 text-lg group-hover:text-white transition-colors">
+                          {suggestion.title}
+                        </div>
+                        <div className="text-sm text-slate-400 font-mono mt-1">
+                          SOC Code: {suggestion.soc_code}
+                        </div>
                       </div>
-                      <Badge variant="secondary" className="bg-blue-600 text-white">
-                        {Math.round(suggestion.similarity_score * 100)}% match
-                      </Badge>
+                      <div className="flex items-center gap-3">
+                        <Badge
+                          variant="outline"
+                          className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white border-transparent px-3 py-1 font-semibold"
+                        >
+                          {Math.round(suggestion.similarity_score * 100)}% match
+                        </Badge>
+                        <div className="text-slate-400 group-hover:text-slate-300 transition-colors">
+                          →
+                        </div>
+                      </div>
                     </button>
                   ))}
                 </div>
@@ -181,44 +200,65 @@ export default function Home() {
         )}
 
         {/* Features */}
-        <div className="max-w-4xl mx-auto mt-16">
+        <div className="max-w-5xl mx-auto mt-20">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-slate-100 mb-4">
+              What You'll Discover
+            </h2>
+            <p className="text-lg text-slate-400 max-w-2xl mx-auto">
+              Our AI-powered analysis provides comprehensive insights across four key areas
+            </p>
+          </div>
+          
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Card className="bg-slate-800 border-slate-700">
-              <CardContent className="pt-6">
-                <div className="text-blue-400 text-2xl mb-2">📋</div>
-                <h3 className="font-semibold text-slate-100 mb-2">Responsibilities</h3>
-                <p className="text-sm text-slate-400">
-                  Key duties and tasks employers expect
-                </p>
-              </CardContent>
-            </Card>
-            <Card className="bg-slate-800 border-slate-700">
-              <CardContent className="pt-6">
-                <div className="text-green-400 text-2xl mb-2">🛠️</div>
-                <h3 className="font-semibold text-slate-100 mb-2">Skills</h3>
-                <p className="text-sm text-slate-400">
-                  Technical and soft skills in demand
-                </p>
-              </CardContent>
-            </Card>
-            <Card className="bg-slate-800 border-slate-700">
-              <CardContent className="pt-6">
-                <div className="text-purple-400 text-2xl mb-2">🎓</div>
-                <h3 className="font-semibold text-slate-100 mb-2">Qualifications</h3>
-                <p className="text-sm text-slate-400">
-                  Education and experience requirements
-                </p>
-              </CardContent>
-            </Card>
-            <Card className="bg-slate-800 border-slate-700">
-              <CardContent className="pt-6">
-                <div className="text-orange-400 text-2xl mb-2">✨</div>
-                <h3 className="font-semibold text-slate-100 mb-2">Unique Aspects</h3>
-                <p className="text-sm text-slate-400">
-                  Benefits, perks, and special features
-                </p>
-              </CardContent>
-            </Card>
+            {[
+              {
+                emoji: '📋',
+                title: 'Responsibilities',
+                description: 'Key duties and tasks employers expect',
+                gradient: 'from-blue-500 to-cyan-500',
+                bgColor: 'bg-blue-950/30'
+              },
+              {
+                emoji: '🛠️',
+                title: 'Skills',
+                description: 'Technical and soft skills in demand',
+                gradient: 'from-green-500 to-emerald-500',
+                bgColor: 'bg-green-950/30'
+              },
+              {
+                emoji: '🎓',
+                title: 'Qualifications',
+                description: 'Education and experience requirements',
+                gradient: 'from-purple-500 to-violet-500',
+                bgColor: 'bg-purple-950/30'
+              },
+              {
+                emoji: '✨',
+                title: 'Unique Aspects',
+                description: 'Benefits, perks, and special features',
+                gradient: 'from-orange-500 to-amber-500',
+                bgColor: 'bg-orange-950/30'
+              }
+            ].map((feature, index) => (
+              <Card
+                key={index}
+                className="bg-slate-800/70 border-slate-700 hover:bg-slate-800 transition-all duration-300 transform hover:scale-105 hover:shadow-xl group"
+              >
+                <CardContent className="pt-8 pb-6 text-center">
+                  <div className={`mx-auto w-16 h-16 rounded-full bg-gradient-to-br ${feature.gradient} flex items-center justify-center shadow-lg mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                    <span className="text-2xl">{feature.emoji}</span>
+                  </div>
+                  <h3 className="font-bold text-slate-100 mb-3 text-lg group-hover:text-white transition-colors">
+                    {feature.title}
+                  </h3>
+                  <p className="text-sm text-slate-400 leading-relaxed group-hover:text-slate-300 transition-colors">
+                    {feature.description}
+                  </p>
+                  <div className={`mt-4 h-1 w-12 mx-auto rounded-full bg-gradient-to-r ${feature.gradient} opacity-60 group-hover:opacity-100 transition-opacity duration-300`}></div>
+                </CardContent>
+              </Card>
+            ))}
           </div>
         </div>
       </div>

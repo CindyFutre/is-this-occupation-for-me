@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 
 interface AnalyzedTerm {
   term: string;
@@ -98,42 +99,140 @@ export default function SOCAnalysisPage() {
       }
     };
 
+    const getCategoryColor = (category: string) => {
+      switch (category) {
+        case 'responsibilities': return 'from-blue-500 to-cyan-500';
+        case 'skills': return 'from-green-500 to-emerald-500';
+        case 'qualifications': return 'from-purple-500 to-violet-500';
+        case 'unique_aspects': return 'from-orange-500 to-amber-500';
+        default: return 'from-gray-500 to-slate-500';
+      }
+    };
+
+    const getBadgeColor = (category: string) => {
+      switch (category) {
+        case 'responsibilities': return 'border-blue-400 text-blue-300 bg-blue-950/30';
+        case 'skills': return 'border-green-400 text-green-300 bg-green-950/30';
+        case 'qualifications': return 'border-purple-400 text-purple-300 bg-purple-950/30';
+        case 'unique_aspects': return 'border-orange-400 text-orange-300 bg-orange-950/30';
+        default: return 'border-gray-400 text-gray-300 bg-gray-950/30';
+      }
+    };
+
     return (
-      <div className="space-y-4">
-        <div className="flex items-center gap-2 mb-4">
-          <span className="text-2xl">{getEmoji(category)}</span>
-          <h3 className="text-xl font-semibold text-slate-100 capitalize">
-            {category.replace('_', ' ')}
-          </h3>
-          <Badge variant="secondary" className="bg-slate-700 text-slate-300">
-            {terms.length} items
-          </Badge>
+      <div className="space-y-6">
+        {/* Category Header */}
+        <div className="flex items-center gap-3 mb-6">
+          <div className={`p-3 rounded-xl bg-gradient-to-br ${getCategoryColor(category)} shadow-lg`}>
+            <span className="text-2xl">{getEmoji(category)}</span>
+          </div>
+          <div>
+            <h3 className="text-2xl font-bold text-slate-100 capitalize">
+              {category.replace('_', ' ')}
+            </h3>
+            <p className="text-slate-400">
+              {terms.length} {terms.length === 1 ? 'item' : 'items'} found in job analysis
+            </p>
+          </div>
         </div>
-        <div className="grid gap-3">
-          {terms.map((term, index) => (
-            <Card key={index} className="bg-slate-800 border-slate-700">
-              <CardContent className="pt-4">
-                <div className="flex items-start justify-between mb-2">
-                  <h4 className="font-medium text-slate-100 flex-1">{term.term}</h4>
-                  <Badge variant="outline" className="border-blue-500 text-blue-400 ml-2">
-                    {term.count} jobs
-                  </Badge>
-                </div>
-                {term.context_sentences.length > 0 && (
-                  <div className="mt-3">
-                    <p className="text-xs text-slate-400 mb-2">Context examples:</p>
-                    <div className="space-y-1">
-                      {term.context_sentences.slice(0, 2).map((sentence, idx) => (
-                        <p key={idx} className="text-sm text-slate-300 italic border-l-2 border-slate-600 pl-3">
-                          "{sentence.length > 150 ? sentence.substring(0, 150) + '...' : sentence}"
-                        </p>
-                      ))}
-                    </div>
+
+        {/* Enhanced Table */}
+        <Card className="bg-slate-800/50 border-slate-700 shadow-xl">
+          <Table>
+            <TableHeader>
+              <TableRow className="border-slate-700 hover:bg-slate-800/50">
+                <TableHead className="text-slate-300 font-semibold py-4 px-6">
+                  <div className="flex items-center gap-2">
+                    <span className="text-lg">{getEmoji(category)}</span>
+                    Term
                   </div>
-                )}
-              </CardContent>
-            </Card>
-          ))}
+                </TableHead>
+                <TableHead className="text-slate-300 font-semibold py-4 px-6 text-center w-32">
+                  Frequency
+                </TableHead>
+                <TableHead className="text-slate-300 font-semibold py-4 px-6">
+                  Context Examples
+                </TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              {terms.map((term, index) => (
+                <TableRow
+                  key={index}
+                  className="border-slate-700 hover:bg-slate-800/30 transition-colors duration-200"
+                >
+                  <TableCell className="py-6 px-6">
+                    <div className="font-medium text-slate-100 text-base leading-relaxed">
+                      {term.term}
+                    </div>
+                  </TableCell>
+                  <TableCell className="py-6 px-6 text-center">
+                    <Badge
+                      variant="outline"
+                      className={`${getBadgeColor(category)} font-semibold px-3 py-1 text-sm`}
+                    >
+                      {term.count} {term.count === 1 ? 'job' : 'jobs'}
+                    </Badge>
+                  </TableCell>
+                  <TableCell className="py-6 px-6">
+                    {term.context_sentences.length > 0 ? (
+                      <div className="space-y-3">
+                        {term.context_sentences.slice(0, 2).map((sentence, idx) => (
+                          <div
+                            key={idx}
+                            className="relative pl-4 py-2 rounded-lg bg-slate-900/40 border-l-4 border-slate-600"
+                          >
+                            <p className="text-sm text-slate-300 italic leading-relaxed">
+                              "{sentence.length > 120 ? sentence.substring(0, 120) + '...' : sentence}"
+                            </p>
+                          </div>
+                        ))}
+                        {term.context_sentences.length > 2 && (
+                          <p className="text-xs text-slate-500 italic">
+                            +{term.context_sentences.length - 2} more examples
+                          </p>
+                        )}
+                      </div>
+                    ) : (
+                      <span className="text-slate-500 italic">No context available</span>
+                    )}
+                  </TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </Card>
+
+        {/* Summary Stats */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+          <Card className="bg-slate-800/30 border-slate-700">
+            <CardContent className="pt-4 pb-4 px-4">
+              <div className="text-center">
+                <div className="text-2xl font-bold text-slate-100">{terms.length}</div>
+                <div className="text-sm text-slate-400">Total Items</div>
+              </div>
+            </CardContent>
+          </Card>
+          <Card className="bg-slate-800/30 border-slate-700">
+            <CardContent className="pt-4 pb-4 px-4">
+              <div className="text-center">
+                <div className="text-2xl font-bold text-slate-100">
+                  {terms.reduce((sum, term) => sum + term.count, 0)}
+                </div>
+                <div className="text-sm text-slate-400">Total Mentions</div>
+              </div>
+            </CardContent>
+          </Card>
+          <Card className="bg-slate-800/30 border-slate-700">
+            <CardContent className="pt-4 pb-4 px-4">
+              <div className="text-center">
+                <div className="text-2xl font-bold text-slate-100">
+                  {terms.length > 0 ? Math.round(terms.reduce((sum, term) => sum + term.count, 0) / terms.length) : 0}
+                </div>
+                <div className="text-sm text-slate-400">Avg per Item</div>
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </div>
     );
@@ -156,33 +255,68 @@ export default function SOCAnalysisPage() {
         </div>
 
         {/* Overview Cards */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-          {Object.entries(socResults).map(([socCode, result]) => (
-            <Card 
-              key={socCode} 
-              className={`bg-slate-800 border-slate-700 cursor-pointer transition-colors ${
-                selectedSOC === socCode ? 'ring-2 ring-blue-500' : 'hover:bg-slate-750'
-              }`}
-              onClick={() => setSelectedSOC(socCode)}
-            >
-              <CardContent className="pt-6">
-                <div className="text-center">
-                  <h3 className="font-semibold text-slate-100 mb-1">
-                    {SOC_CODE_NAMES[socCode] || socCode}
-                  </h3>
-                  <p className="text-sm text-slate-400 mb-2">SOC {socCode}</p>
-                  <div className="space-y-1">
-                    <Badge variant="outline" className="border-green-500 text-green-400">
-                      {result.total_jobs_found} jobs
-                    </Badge>
-                    <p className="text-xs text-slate-500">
-                      {result.total_descriptions_analyzed} analyzed
-                    </p>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+          {Object.entries(socResults).map(([socCode, result], index) => {
+            const gradients = [
+              'from-blue-500 to-cyan-500',
+              'from-green-500 to-emerald-500',
+              'from-purple-500 to-violet-500',
+              'from-orange-500 to-amber-500'
+            ];
+            const isSelected = selectedSOC === socCode;
+            
+            return (
+              <Card
+                key={socCode}
+                className={`cursor-pointer transition-all duration-300 transform hover:scale-105 ${
+                  isSelected
+                    ? 'bg-slate-800 border-slate-600 ring-2 ring-blue-400 shadow-xl shadow-blue-500/20'
+                    : 'bg-slate-800/70 border-slate-700 hover:bg-slate-800 hover:border-slate-600 shadow-lg'
+                }`}
+                onClick={() => setSelectedSOC(socCode)}
+              >
+                <CardContent className="pt-6 pb-6">
+                  <div className="text-center space-y-4">
+                    {/* Gradient Icon */}
+                    <div className={`mx-auto w-16 h-16 rounded-full bg-gradient-to-br ${gradients[index]} flex items-center justify-center shadow-lg`}>
+                      <span className="text-2xl text-white font-bold">
+                        {(SOC_CODE_NAMES[socCode] || socCode).charAt(0)}
+                      </span>
+                    </div>
+                    
+                    {/* Title */}
+                    <div>
+                      <h3 className="font-bold text-slate-100 mb-1 text-lg">
+                        {SOC_CODE_NAMES[socCode] || socCode}
+                      </h3>
+                      <p className="text-sm text-slate-400 font-mono">SOC {socCode}</p>
+                    </div>
+                    
+                    {/* Stats */}
+                    <div className="space-y-2">
+                      <Badge
+                        variant="outline"
+                        className="border-green-400 text-green-300 bg-green-950/30 px-3 py-1"
+                      >
+                        {result.total_jobs_found} jobs found
+                      </Badge>
+                      <div className="text-xs text-slate-500">
+                        {result.total_descriptions_analyzed} descriptions analyzed
+                      </div>
+                    </div>
+                    
+                    {/* Selection Indicator */}
+                    {isSelected && (
+                      <div className="flex items-center justify-center gap-1 text-blue-400">
+                        <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
+                        <span className="text-xs font-medium">Selected</span>
+                      </div>
+                    )}
                   </div>
-                </div>
-              </CardContent>
-            </Card>
-          ))}
+                </CardContent>
+              </Card>
+            );
+          })}
         </div>
 
         {/* Selected SOC Details */}
@@ -212,26 +346,35 @@ export default function SOCAnalysisPage() {
             </Card>
 
             {/* Category Navigation */}
-            <div className="flex flex-wrap gap-2 mb-6">
+            <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { key: 'responsibilities', label: '📋 Responsibilities', emoji: '📋' },
-                { key: 'skills', label: '🛠️ Skills', emoji: '🛠️' },
-                { key: 'qualifications', label: '🎓 Qualifications', emoji: '🎓' },
-                { key: 'unique_aspects', label: '✨ Unique Aspects', emoji: '✨' }
-              ].map((category) => (
-                <Button
-                  key={category.key}
-                  variant={selectedCategory === category.key ? "default" : "outline"}
-                  onClick={() => setSelectedCategory(category.key)}
-                  className={`${
-                    selectedCategory === category.key 
-                      ? 'bg-blue-600 hover:bg-blue-700 text-white' 
-                      : 'bg-slate-800 border-slate-600 text-slate-300 hover:bg-slate-700'
-                  }`}
-                >
-                  {category.label}
-                </Button>
-              ))}
+                { key: 'responsibilities', label: 'Responsibilities', emoji: '📋', gradient: 'from-blue-500 to-cyan-500', bg: 'bg-blue-600 hover:bg-blue-700' },
+                { key: 'skills', label: 'Skills', emoji: '🛠️', gradient: 'from-green-500 to-emerald-500', bg: 'bg-green-600 hover:bg-green-700' },
+                { key: 'qualifications', label: 'Qualifications', emoji: '🎓', gradient: 'from-purple-500 to-violet-500', bg: 'bg-purple-600 hover:bg-purple-700' },
+                { key: 'unique_aspects', label: 'Unique Aspects', emoji: '✨', gradient: 'from-orange-500 to-amber-500', bg: 'bg-orange-600 hover:bg-orange-700' }
+              ].map((category) => {
+                const isSelected = selectedCategory === category.key;
+                return (
+                  <Button
+                    key={category.key}
+                    variant="outline"
+                    onClick={() => setSelectedCategory(category.key)}
+                    className={`relative overflow-hidden transition-all duration-300 px-6 py-3 text-base font-semibold ${
+                      isSelected
+                        ? `${category.bg} text-white border-transparent shadow-lg transform scale-105`
+                        : 'bg-slate-800/50 border-slate-600 text-slate-300 hover:bg-slate-700 hover:border-slate-500'
+                    }`}
+                  >
+                    <div className="flex items-center gap-2">
+                      <span className="text-lg">{category.emoji}</span>
+                      <span>{category.label}</span>
+                    </div>
+                    {isSelected && (
+                      <div className={`absolute inset-0 bg-gradient-to-r ${category.gradient} opacity-20 pointer-events-none`}></div>
+                    )}
+                  </Button>
+                );
+              })}
             </div>
 
             {/* Category Content */}
