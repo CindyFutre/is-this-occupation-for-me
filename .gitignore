@@ -118,3 +118,7 @@ public
 # Temporary folders
 tmp/
 temp/
+
+# Cache directories
+backend/cache/
+cache/
