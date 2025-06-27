@@ -92,12 +92,12 @@ export default function Home() {
               Enter a job title to analyze current market demands
             </p>
           </div>
-          <form onSubmit={handleSubmit} className="space-y-4">
-                <div>
-                  <label htmlFor="job-title" className="block text-sm font-medium text-slate-300 mb-2">
+          <form onSubmit={handleSubmit} className="space-y-6">
+                <div className="flex items-center gap-4">
+                  <label htmlFor="job-title" className="text-sm font-medium text-slate-300 whitespace-nowrap text-left" style={{ width: '140px' }}>
                     Job Title *
                   </label>
-                  <div className="relative">
+                  <div className="relative flex-1">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                       <svg className="h-5 w-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -115,11 +115,11 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                <div>
-                  <label htmlFor="location" className="block text-sm font-medium text-slate-300 mb-2">
+                <div className="flex items-center gap-4">
+                  <label htmlFor="location" className="text-sm font-medium text-slate-300 whitespace-nowrap text-left" style={{ width: '140px' }}>
                     Location (Optional)
                   </label>
-                  <div className="relative">
+                  <div className="relative flex-1">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                       <svg className="h-5 w-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -138,13 +138,22 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                <Button 
-                  type="submit" 
-                  className="w-full bg-blue-600 hover:bg-blue-700 text-white"
-                  disabled={isLoading || !query.trim()}
-                >
-                  {isLoading ? 'Analyzing Job Market...' : 'Analyze Job Market'}
-                </Button>
+                <div className="mt-8" style={{ marginTop: '40px' }}>
+                  <Button
+                    type="submit"
+                    className="w-full text-white font-semibold rounded-full shadow-lg transform hover:scale-105 transition-all duration-200 disabled:opacity-100"
+                    style={{
+                      backgroundColor: '#6366f1',
+                      borderColor: '#6366f1',
+                      color: 'white',
+                      fontSize: '1rem',
+                      padding: '12px 20px'
+                    }}
+                    disabled={isLoading || !query.trim()}
+                  >
+                    {isLoading ? 'Analyzing Job Market...' : 'Analyze Job Market'}
+                  </Button>
+                </div>
               </form>
         </div>
 
