@@ -1,0 +1,327 @@
+{
+  "job_title": "Software Developers",
+  "soc_code": "N/A",
+  "total_postings_analyzed": 100,
+  "analysis_timestamp": 71.160640125,
+  "categories": {
+    "responsibilities": [
+      {
+        "term": "design and develop software applications",
+        "count": 12,
+        "context_sentences": [
+          "Design and develop software applications as per client requirements.",
+          "Design and develop banking software using Appian, J2EE, JavaScript, Web Services, Agile Scrum",
+          "Design, develop, test, deploy, and deliver multi-tier software applications."
+        ]
+      },
+      {
+        "term": "analyze user needs and business requirements",
+        "count": 8,
+        "context_sentences": [
+          "Elicit requirements by conducting evaluations of clients' business needs and translate business requirements into technical requirements",
+          "Analyze user needs and develop software solutions, applying principles and techniques of computer science",
+          "Perform requirements gathering as per the business needs."
+        ]
+      },
+      {
+        "term": "perform testing and debugging",
+        "count": 10,
+        "context_sentences": [
+          "Test and debug software application prototypes.",
+          "Perform code review and debugging.",
+          "Perform unit test and debug application issues using Junit."
+        ]
+      },
+      {
+        "term": "develop and maintain databases",
+        "count": 7,
+        "context_sentences": [
+          "May maintain databases within an application area, working individually or coordinating database development as part of a team.",
+          "Design and develop software application solutions for banking data management using AWS, MySQL, Hadoop Ecosystems",
+          "Develop business APIs and data libraries using Algorithm, Object-Oriented programming, database Management systems"
+        ]
+      },
+      {
+        "term": "create technical documentation",
+        "count": 6,
+        "context_sentences": [
+          "Develop, design documentation and unit test cases.",
+          "Document the development, testing, and implementation of systems.",
+          "Analyze business requirements, compile BRD, and develop detailed technical specification document"
+        ]
+      },
+      {
+        "term": "integrate software systems and APIs",
+        "count": 8,
+        "context_sentences": [
+          "May work with computer hardware engineers to integrate hardware and software systems",
+          "Develop and use off the shelf interfaces and APIs to Integrate salesforce applications.",
+          "Develop software interfaces including stored procedures, web panel and message center development"
+        ]
+      },
+      {
+        "term": "collaborate with business teams and clients",
+        "count": 7,
+        "context_sentences": [
+          "Interact and coordinate with business groups at various stages of application development",
+          "Working as a liaison with various clients concerning planning, time estimates, prioritization",
+          "Confer with users to gather and analyze functional requirements"
+        ]
+      },
+      {
+        "term": "optimize application performance",
+        "count": 6,
+        "context_sentences": [
+          "Improve performance of applications.",
+          "Analyze and optimize vast data stores using Apache Spark, Python, MapReduce",
+          "Monitor performance and troubleshoot issues in Virtual Machine."
+        ]
+      },
+      {
+        "term": "conduct code reviews",
+        "count": 5,
+        "context_sentences": [
+          "Perform code review and debugging.",
+          "Review software architecture and design for bugs and other flaws",
+          "Guide the software design and development process and resolve complex software design issues"
+        ]
+      },
+      {
+        "term": "deploy and implement software solutions",
+        "count": 8,
+        "context_sentences": [
+          "Design, develop, test, deploy, and deliver multi-tier software applications.",
+          "design, develop, test, implement application software utilizing Java, JavaScript",
+          "Carrying out unit, system, integration and user acceptance tests before production implementation."
+        ]
+      },
+      {
+        "term": "develop web services and APIs",
+        "count": 7,
+        "context_sentences": [
+          "Design and develop banking software using Appian, J2EE, JavaScript, Web Services",
+          "Design and develop scalable high-performance web services for data tracking",
+          "Create API content, including logistics information, commodity pricing, client data"
+        ]
+      },
+      {
+        "term": "perform data analysis and processing",
+        "count": 6,
+        "context_sentences": [
+          "Analyze and optimize vast data stores using Apache Spark, Python, MapReduce",
+          "Automate processing for data storage using Data Mining and Big Data",
+          "Design and develop software application solutions for banking data management"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "term": "Java programming",
+        "count": 8,
+        "context_sentences": [
+          "Analyze, develop and test multi-tier Enterprise applications using various technologies such as Java Map Reduce",
+          "Design and develop software applications for telecommunication systems using Java 8",
+          "design, develop, test, implement application software utilizing Java, JavaScript"
+        ]
+      },
+      {
+        "term": "SQL and database management",
+        "count": 10,
+        "context_sentences": [
+          "All of the above duties will be performed using skills in SQL, JSON, MS Dynamics CRM",
+          "Design and develop data management software for moving data migration and data extraction using .Net, Oracle SQL",
+          "Develop business APIs and data libraries using Algorithm, Object-Oriented programming, database Management systems, Database design, SQL"
+        ]
+      },
+      {
+        "term": "JavaScript programming",
+        "count": 7,
+        "context_sentences": [
+          "Design and develop banking software using Appian, J2EE, JavaScript, Web Services",
+          "Design and develop software application solutions for banking software using J2EE, Javascript, Web Services",
+          "design, develop, test, implement application software utilizing Java, JavaScript"
+        ]
+      },
+      {
+        "term": ".NET Framework and C#",
+        "count": 5,
+        "context_sentences": [
+          "Skills required: .Net Framework, C#, VB.Net, ASP.Net, CSS, APIs, JIRA, jQuery and Bootstrap.",
+          "Design and develop data management software for moving data migration and data extraction using .Net, Oracle SQL",
+          "Design, develop, and improve software performance using OLAP, ASP.Net, WPF, XML"
+        ]
+      },
+      {
+        "term": "Python programming",
+        "count": 5,
+        "context_sentences": [
+          "Analyze and optimize vast data stores using Apache Spark, Python, MapReduce",
+          "Design and develop software applications for retail customer management system using Python, Text Mining, Web Scraping",
+          "Analyze, develop and test multi-tier Enterprise applications using various technologies such as Java Map Reduce, YARN, Hive, Pig, Spark, GraphDB, Python"
+        ]
+      },
+      {
+        "term": "HTML and CSS",
+        "count": 6,
+        "context_sentences": [
+          "Design and develop software solutions using Mulesoft, JDBC, JBoss, HTML, JUnit",
+          "TypeScript, HTML, CSS, JSON, Angular, RESTful APIs and Git.",
+          "Skills required: .Net Framework, C#, VB.Net, ASP.Net, CSS, APIs, JIRA, jQuery and Bootstrap."
+        ]
+      },
+      {
+        "term": "Angular framework",
+        "count": 3,
+        "context_sentences": [
+          "All of the above duties will be performed using skills in SQL, JSON, MS Dynamics CRM, Angular, CSS, and GIT.",
+          "TypeScript, HTML, CSS, JSON, Angular, RESTful APIs and Git."
+        ]
+      },
+      {
+        "term": "Git version control",
+        "count": 4,
+        "context_sentences": [
+          "All of the above duties will be performed using skills in SQL, JSON, MS Dynamics CRM, Angular, CSS, and GIT.",
+          "Create API content, including logistics information, commodity pricing, client data and visualization reports using GitHub, mySQL",
+          "Design and develop software applications for telecommunication systems using Java 8, C++, Spring Boot, Git"
+        ]
+      },
+      {
+        "term": "Agile and Scrum methodology",
+        "count": 4,
+        "context_sentences": [
+          "Design and develop banking software using Appian, J2EE, JavaScript, Web Services, Agile Scrum",
+          "Analyze and define technical specifications and functional requirements for Scrum team and its deliverables",
+          "Design and develop software solutions using Mulesoft, JDBC, JBoss, HTML, JUnit, and Agile methodology"
+        ]
+      },
+      {
+        "term": "AWS cloud services",
+        "count": 3,
+        "context_sentences": [
+          "Design and develop software application solutions for banking data management using AWS, MySQL, Hadoop Ecosystems",
+          "Analyze, develop and test multi-tier Enterprise applications using various technologies such as Java Map Reduce, YARN, Hive, Pig, Spark, GraphDB, Python, AWS"
+        ]
+      },
+      {
+        "term": "JIRA project management",
+        "count": 4,
+        "context_sentences": [
+          "Analyze, review, and interpret all infrastructure in software functional requirements and technical specifications for software stages using Jira, Selenium",
+          "Skills required: .Net Framework, C#, VB.Net, ASP.Net, CSS, APIs, JIRA, jQuery and Bootstrap."
+        ]
+      },
+      {
+        "term": "XML data processing",
+        "count": 4,
+        "context_sentences": [
+          "Design and develop software application solutions for banking software using J2EE, Javascript, Web Services, XML",
+          "Design, develop, and improve software performance using OLAP, ASP.Net, WPF, XML, J2EE, MVC, LINQ",
+          "Automate processing for data storage using XML, SDLC, ETL, Oracle 9i"
+        ]
+      }
+    ],
+    "qualifications": [
+      {
+        "term": "Master's degree in Computer Science or related field",
+        "count": 9,
+        "context_sentences": [
+          "Master's degree in Computer Science, Software Engineering, Technology (Any) or related field plus 6 months of experience",
+          "Must have a Master's Degree or its equivalent in Computer Science, Computer Engineering, Electronics Engineering",
+          "Must have a Master's Degree in Computer Science, Computer Engineering, Software Engineering, Engineering, or Electronics Engineering"
+        ]
+      },
+      {
+        "term": "Bachelor's degree in Computer Science or related field",
+        "count": 4,
+        "context_sentences": [
+          "Bachelor's degree in Science, Technology, or Engineering (any) along with 2 years of experience",
+          "Requires a Bachelor's degree or equivalent in Computer Science, Engineering, Math, Science, Information Technology",
+          "BS in CS/IT/Sci or related or equivalent."
+        ]
+      },
+      {
+        "term": "2+ years of software development experience",
+        "count": 8,
+        "context_sentences": [
+          "plus 2 years experience in job offered",
+          "Bachelor's degree in Science, Technology, or Engineering (any) along with 2 years of experience in the job offered",
+          "Plus 2 years of experience in the field."
+        ]
+      },
+      {
+        "term": "Experience with specific programming languages",
+        "count": 12,
+        "context_sentences": [
+          "The required experience must include working with SQL, JSON, MS Dynamics CRM, Angular, CSS, and GIT.",
+          "Require skills and knowledge in Appian, J2EE, JavaScript, Web Services, Jira, Agile Scrum, Selenium.",
+          "Must have a Master's Degree in Computer Science plus skills and knowledge in Python, Object Oriented Design, GitHub, mySQL"
+        ]
+      },
+      {
+        "term": "Willingness to travel to client locations",
+        "count": 10,
+        "context_sentences": [
+          "Work location will include various unanticipated locations throughout the U.S.",
+          "Require 100 % travel to unanticipated client locations in USA.",
+          "Must be willing to travel to unanticipated client locations in the U.S."
+        ]
+      }
+    ],
+    "unique_aspects": [
+      {
+        "term": "Remote work and telecommuting options",
+        "count": 6,
+        "context_sentences": [
+          "Allow telecommuting.",
+          "Allow telecommuting. Range: $179,982-$185k/yr.",
+          "Allow telecommuting. $151,819~$153k/year."
+        ]
+      },
+      {
+        "term": "Competitive salary range $150k-$185k",
+        "count": 6,
+        "context_sentences": [
+          "Range: $179,982-$185k/yr.",
+          "$179,982-$185k/yr.",
+          "$151,819~$153k/year."
+        ]
+      },
+      {
+        "term": "Comprehensive benefits package",
+        "count": 2,
+        "context_sentences": [
+          "Benefits include Medical/Dental/Vision/Life, HSA/FSA, AD&D/STD/LTD, 401k, PTO.",
+          "Benefits include Medical/Dental/Vision/Life, HSA/FSA, AD&D/STD/LTD, 401k, PTO."
+        ]
+      },
+      {
+        "term": "100% travel requirement",
+        "count": 6,
+        "context_sentences": [
+          "Require 100 % travel to unanticipated client locations in USA.",
+          "Require 100% travel to unanticipated client locations in US.",
+          "Must be willing to travel for setting up various systems to various clients at unanticipated locations within the United States"
+        ]
+      },
+      {
+        "term": "Work with banking and financial systems",
+        "count": 4,
+        "context_sentences": [
+          "Design and develop banking software using Appian, J2EE, JavaScript, Web Services",
+          "Design and develop software application solutions for banking data management using AWS, MySQL",
+          "Design and develop software application solutions for banking software using J2EE, Javascript"
+        ]
+      },
+      {
+        "term": "Opportunity to work with cutting-edge technologies",
+        "count": 5,
+        "context_sentences": [
+          "Design and develop software applications for retail customer management system using Python, Text Mining, Web Scraping, Pandas, Object Oriented Design",
+          "Analyze and optimize vast data stores using Apache Spark, Python, MapReduce and Shell Scripting",
+          "Design and develop UI using Machine Learning"
+        ]
+      }
+    ]
+  }
+}

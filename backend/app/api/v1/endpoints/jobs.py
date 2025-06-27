@@ -70,13 +70,36 @@ async def analyze_job(
             suggestions=suggestions
         )
     
-    # Fetch job postings for the matched job
+    # Fetch job postings from MongoDB for the matched job
     try:
-        raw_postings = await career_api_service.fetch_postings(
-            exact_match["soc_code"],
-            location,
-            settings
-        )
+        # Query MongoDB for jobs with this SOC code
+        filters = {}
+        
+        # Try multiple SOC code field patterns
+        soc_code = exact_match["soc_code"]
+        filters = {
+            "$or": [
+                {"soc_code": soc_code},
+                {"onet_codes": soc_code},
+                {"soc_codes": soc_code},
+                {"onet_codes": {"$in": [soc_code]}},
+                {"soc_codes": {"$in": [soc_code]}}
+            ]
+        }
+        
+        # Get jobs from MongoDB (limit to 100 for analysis)
+        raw_postings = await get_jobs_by_criteria(limit=100, **filters)
+        
+        if not raw_postings:
+            # If no jobs found by SOC code, try job title matching
+            title_filters = {"JobTitle": {"$regex": exact_match["title"], "$options": "i"}}
+            raw_postings = await get_jobs_by_criteria(limit=100, **title_filters)
+        
+        if not raw_postings:
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail=f"No job postings found for {exact_match['title']} (SOC {soc_code}) in database"
+            )
         
         # Generate structured report using analysis service
         report = generate_report_from_postings(

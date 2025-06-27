@@ -1,0 +1,1324 @@
+{
+  "47-2111.00": {
+    "soc_code": "47-2111.00",
+    "total_jobs_found": 100,
+    "total_descriptions_analyzed": 100,
+    "analysis_results": {
+      "responsibilities": [
+        {
+          "term": "coordinate electrical construction jobs and projects",
+          "count": 2,
+          "context_sentences": [
+            "The primary responsibilities of the Master Electrician are to work directly with the Electrical Field Operations Manager to coordinate electrical construction jobs and projects",
+            "Work with Management to develop crew schedules and determine resource requirements to maintain maximum efficiency and production for each job"
+          ]
+        },
+        {
+          "term": "read and interpret blueprints and technical drawings",
+          "count": 2,
+          "context_sentences": [
+            "Reads and interpret blueprints, plans, sketches, or product specifications to determine sequence and methods of assembly and installation",
+            "Good communication skills, the ability to lift and carry up to 50 pounds, and the ability to read and comprehend technical manuals and blueprints"
+          ]
+        },
+        {
+          "term": "attend pre-construction and coordination meetings",
+          "count": 1,
+          "context_sentences": [
+            "Attends and contributes to pre-construction meetings upon request",
+            "Attends on site coordination meetings with customer and salesman upon request of the Manager"
+          ]
+        },
+        {
+          "term": "work with inspectors and fire marshalls",
+          "count": 1,
+          "context_sentences": [
+            "Work directly with local Fire Marshalls, Inspectors, and other officials in our effort to perform our work according to the rules and guidelines set forth by State and National Agencies"
+          ]
+        },
+        {
+          "term": "stage and select electrical materials",
+          "count": 1,
+          "context_sentences": [
+            "Stage and select materials based on information provided by salesman and estimator, as indicated on drawings or other written instruction"
+          ]
+        },
+        {
+          "term": "lay out and mark work area dimensions",
+          "count": 1,
+          "context_sentences": [
+            "Lay out and mark dimensions and reference lines in work area to determine actual locations of system components, as described in drawings"
+          ]
+        },
+        {
+          "term": "operate electrical tools and equipment",
+          "count": 1,
+          "context_sentences": [
+            "Operate tools and equipment necessary to safely and efficiently complete assigned tasks"
+          ]
+        },
+        {
+          "term": "lead and oversee electrical crews",
+          "count": 2,
+          "context_sentences": [
+            "Leads and oversees the work of lower level electrician/maintenance mechanics through the successful completion of projects",
+            "Work directly with other Journeymen or other crew leaders to ensure continuity of work"
+          ]
+        },
+        {
+          "term": "develop and utilize job safety analysis",
+          "count": 1,
+          "context_sentences": [
+            "Review specific safety events for projects. Develop and utilize JSA (Job Safety Analysis) for all work performed and on a daily basis",
+            "Develops and Utilizes JSA (Job Safety Analysis) for each day's work"
+          ]
+        },
+        {
+          "term": "enforce safety policies and procedures",
+          "count": 1,
+          "context_sentences": [
+            "Aid in the education and enforcement of company policy and procedures, including site safety concerns",
+            "Understands, complies, and enforces JF Petroleum Group safety policies"
+          ]
+        },
+        {
+          "term": "provide comprehensive work plans",
+          "count": 1,
+          "context_sentences": [
+            "Provides comprehensive plans for proposed work",
+            "Periodically reviews work plan to assure that all information, tools and materials required are present prior to beginning work"
+          ]
+        },
+        {
+          "term": "train and mentor apprentices and helpers",
+          "count": 1,
+          "context_sentences": [
+            "helping to ensure quality and proper training of Crew Leaders and Helpers",
+            "Work with apprentice to set goals for personal production based on job schedule and budget requirements"
+          ]
+        },
+        {
+          "term": "report accidents and investigate incidents",
+          "count": 1,
+          "context_sentences": [
+            "Reports accidents or injuries to management immediately. Aids in the investigation and documentation of job-related accidents"
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "term": "high voltage electrical systems knowledge",
+          "count": 1,
+          "context_sentences": [
+            "Must also have thorough knowledge of high voltage (over 2,000 up to 35,000) transmission and distribution equipment used in large industrial or utility distribution generation system"
+          ]
+        },
+        {
+          "term": "electrical estimating and planning",
+          "count": 1,
+          "context_sentences": [
+            "Must have training in estimating and planning electrical work",
+            "Must have training in estimating and planning electrical work"
+          ]
+        },
+        {
+          "term": "blueprint reading and interpretation",
+          "count": 2,
+          "context_sentences": [
+            "Reads and interpret blueprints, plans, sketches, or product specifications",
+            "the ability to read and comprehend technical manuals and blueprints"
+          ]
+        },
+        {
+          "term": "electrical code compliance knowledge",
+          "count": 1,
+          "context_sentences": [
+            "Provides trade, technical and code compliance leadership in all aspects of electrical and mechanical duties"
+          ]
+        },
+        {
+          "term": "OSHA safety requirements knowledge",
+          "count": 1,
+          "context_sentences": [
+            "Understands, complies, and enforces OSHA safety requirements"
+          ]
+        },
+        {
+          "term": "project management and scheduling",
+          "count": 1,
+          "context_sentences": [
+            "planning, organizing, and controlling resources to maximize productivity",
+            "Work with Management to develop crew schedules and determine resource requirements"
+          ]
+        },
+        {
+          "term": "communication and leadership skills",
+          "count": 1,
+          "context_sentences": [
+            "Good communication skills, the ability to lift and carry up to 50 pounds",
+            "Provides trade, technical and code compliance leadership"
+          ]
+        },
+        {
+          "term": "physical ability to lift 50 pounds",
+          "count": 1,
+          "context_sentences": [
+            "Good communication skills, the ability to lift and carry up to 50 pounds"
+          ]
+        }
+      ],
+      "qualifications": [
+        {
+          "term": "Master Electrician certification",
+          "count": 2,
+          "context_sentences": [
+            "This individual must hold a Master Electrician certification in both Kentucky and Ohio",
+            "Licensure as an electrical contractor by the State of New Jersey"
+          ]
+        },
+        {
+          "term": "high school diploma or GED",
+          "count": 2,
+          "context_sentences": [
+            "High school diploma or general education degree (GED)",
+            "High school/vocational school education or equivalent"
+          ]
+        },
+        {
+          "term": "valid driver's license",
+          "count": 2,
+          "context_sentences": [
+            "Valid Driver's license",
+            "A valid driver's license with two years driving experience is necessary"
+          ]
+        },
+        {
+          "term": "two years driving experience",
+          "count": 1,
+          "context_sentences": [
+            "A valid driver's license with two years driving experience is necessary"
+          ]
+        },
+        {
+          "term": "clean driving record",
+          "count": 1,
+          "context_sentences": [
+            "Clean Driving Record"
+          ]
+        },
+        {
+          "term": "defensive driving course completion",
+          "count": 1,
+          "context_sentences": [
+            "Will be required to successfully complete the Rutgers Defensive Driving Course"
+          ]
+        },
+        {
+          "term": "commercial driver's license may be required",
+          "count": 1,
+          "context_sentences": [
+            "May be required to obtain a Commercial Drivers License"
+          ]
+        }
+      ],
+      "unique_aspects": [
+        {
+          "term": "comprehensive medical and dental benefits",
+          "count": 2,
+          "context_sentences": [
+            "Medical, prescription drug, and dental coverage",
+            "Company-sponsored Medical, Dental, and Vision Insurance programs"
+          ]
+        },
+        {
+          "term": "competitive retirement benefits with matching",
+          "count": 2,
+          "context_sentences": [
+            "Competitive retirement benefits, including defined contribution plans and voluntary tax-deferred savings options",
+            "Best-in-class 401(k) Retirement Savings Plan with attractive company matching contributions"
+          ]
+        },
+        {
+          "term": "paid vacation and holiday time",
+          "count": 2,
+          "context_sentences": [
+            "Paid vacation, holidays, and various leave programs",
+            "21 paid days off within your first year of employment (vacation, personal holidays, & national holidays)"
+          ]
+        },
+        {
+          "term": "employee educational benefits",
+          "count": 1,
+          "context_sentences": [
+            "Employee and dependent educational benefits"
+          ]
+        },
+        {
+          "term": "company-provided equipment and tools",
+          "count": 1,
+          "context_sentences": [
+            "Company-provided smart phone, tablet, uniform plan, and tool replacement program"
+          ]
+        },
+        {
+          "term": "internal training academy",
+          "count": 1,
+          "context_sentences": [
+            "We'll make you better at what you do with our internal Training Academy"
+          ]
+        },
+        {
+          "term": "top performers earn over $100,000",
+          "count": 1,
+          "context_sentences": [
+            "Our Top Technicians earn over $100,000"
+          ]
+        },
+        {
+          "term": "Monday to Friday schedule",
+          "count": 1,
+          "context_sentences": [
+            "Shift hours/Schedule: Monday - Friday, 7:00 am - 3:30 pm"
+          ]
+        },
+        {
+          "term": "life insurance coverage",
+          "count": 2,
+          "context_sentences": [
+            "Life insurance coverage",
+            "Company-paid employee Life Insurance with options for YOU and your Family"
+          ]
+        },
+        {
+          "term": "disability insurance options",
+          "count": 1,
+          "context_sentences": [
+            "Short-term and Long-term disability insurance options that will protect you and your family"
+          ]
+        },
+        {
+          "term": "advancement and career growth opportunities",
+          "count": 1,
+          "context_sentences": [
+            "Ready to get out of your work truck? We have ample advancement and career-growth opportunities available across the U.S."
+          ]
+        },
+        {
+          "term": "incentive and bonus opportunities",
+          "count": 1,
+          "context_sentences": [
+            "Top Pay for Top Performers, including incentive and bonus opportunities (depending on the position)"
+          ]
+        }
+      ]
+    },
+    "sample_job_titles": [
+      "Master Electrician",
+      "Master Electrician",
+      "Master Electrician",
+      "Electricians",
+      "Electrician"
+    ]
+  },
+  "29-1141.00": {
+    "soc_code": "29-1141.00",
+    "total_jobs_found": 100,
+    "total_descriptions_analyzed": 99,
+    "analysis_results": {
+      "responsibilities": [
+        {
+          "term": "assess patients' physical, psychological, and emotional status",
+          "count": 4,
+          "context_sentences": [
+            "Provides direct nursing care to patients by assessing their physical, psychological, emotional and spiritual status.",
+            "The Registered Nurse provides direct nursing care by assessing patients' needs, performing physical examinations, and taking health history and demographic information.",
+            "Performs comprehensive patient assessments, noting any improvement or deterioration in the patient's condition and implements and evaluates nursing care accordingly."
+          ]
+        },
+        {
+          "term": "administer treatments, medications, and general care",
+          "count": 4,
+          "context_sentences": [
+            "Assesses patients and administers treatments, medications, and general care according to nursing plan of care, best practices, established protocols and medical orders.",
+            "The Registered Nurse plans, develops, implements, administers, evaluates and updates specialized plans of treatment and preventive care regimens in accordance with medical orders and nursing standards."
+          ]
+        },
+        {
+          "term": "develop and implement nursing care plans",
+          "count": 4,
+          "context_sentences": [
+            "Develops a plan of care consistent with the patient's condition and annotates medical records in accordance with established procedures and regulatory requirements.",
+            "The Registered Nurse plans, develops, implements, administers, evaluates and updates specialized plans of treatment and preventive care regimens."
+          ]
+        },
+        {
+          "term": "document patient care and maintain medical records",
+          "count": 4,
+          "context_sentences": [
+            "Annotates medical records in accordance with established procedures, implements infection control protocols, and ensures compliance with regulatory requirements.",
+            "Evaluates and documents patients' responses to care regimen and adds to; changes or resolves interventions on the nursing plan of care."
+          ]
+        },
+        {
+          "term": "coordinate care with healthcare team members",
+          "count": 3,
+          "context_sentences": [
+            "Collaborates with appropriate members of the health team (i.e.: LPN, Nurse's Aide, Attendants) to coordinate care for patients.",
+            "Coordinates care with other departments (i.e.: dietary, social services rehab services, etc.), serving as a liaison to ensure services are provided in a timely manner."
+          ]
+        },
+        {
+          "term": "provide patient and family education",
+          "count": 3,
+          "context_sentences": [
+            "Provides education to the patient and family about medication, medical treatments; disease specific information, follow up care.",
+            "Includes the patients and family in the process of care planning."
+          ]
+        },
+        {
+          "term": "perform telephone triage and diagnosis procedures",
+          "count": 2,
+          "context_sentences": [
+            "Demonstrated experience with telephone triage and diagnosis procedures.",
+            "Telephone communication skills with empathy, respect, restatement, using open-ended questions."
+          ]
+        },
+        {
+          "term": "operate specialized medical equipment",
+          "count": 2,
+          "context_sentences": [
+            "Operates specialized medical equipment."
+          ]
+        },
+        {
+          "term": "participate in discharge planning",
+          "count": 2,
+          "context_sentences": [
+            "Participates in discharge planning in collaboration with other health care providers and community resources to ensure full utilization of support services which address patient needs."
+          ]
+        },
+        {
+          "term": "evaluate patient responses to treatment",
+          "count": 2,
+          "context_sentences": [
+            "Evaluates and documents patients' responses to care regimen and adds to; changes or resolves interventions on the nursing plan of care.",
+            "Including evaluation of the patient's response to the care."
+          ]
+        },
+        {
+          "term": "implement infection control protocols",
+          "count": 2,
+          "context_sentences": [
+            "Implements infection control protocols, and ensures compliance with regulatory requirements."
+          ]
+        },
+        {
+          "term": "participate in quality assurance activities",
+          "count": 1,
+          "context_sentences": [
+            "Participates in Quality Assurance activities to ensure provision of optimum care and follow-up for patients."
+          ]
+        },
+        {
+          "term": "precept and mentor newer nursing staff",
+          "count": 1,
+          "context_sentences": [
+            "Precepts and mentors newer staff on the assigned unit.",
+            "May act as preceptor to new graduate nurses to ensure appropriate orientation to assigned units."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "term": "computer applications and internet proficiency",
+          "count": 2,
+          "context_sentences": [
+            "Must be proficient in using computer applications and using the internet."
+          ]
+        },
+        {
+          "term": "multi-tasking abilities",
+          "count": 2,
+          "context_sentences": [
+            "Must be able to multi-task successfully."
+          ]
+        },
+        {
+          "term": "excellent communication and organizational skills",
+          "count": 2,
+          "context_sentences": [
+            "Excellent communication and organizational skills."
+          ]
+        },
+        {
+          "term": "telephone communication skills",
+          "count": 2,
+          "context_sentences": [
+            "Telephone communication skills with empathy, respect, restatement, using open-ended questions."
+          ]
+        },
+        {
+          "term": "critical independent decision making",
+          "count": 2,
+          "context_sentences": [
+            "Must have the ability to make critical independent decisions and prioritize appropriately."
+          ]
+        },
+        {
+          "term": "medication knowledge",
+          "count": 2,
+          "context_sentences": [
+            "Demonstrated knowledge of medications."
+          ]
+        },
+        {
+          "term": "patient assessment skills",
+          "count": 4,
+          "context_sentences": [
+            "Knowledge, skills, and abilities required to perform this job are typically acquired through a minimum of three years of progressively responsible experience in nursing including assessing patients."
+          ]
+        },
+        {
+          "term": "prioritization skills",
+          "count": 2,
+          "context_sentences": [
+            "Must have the ability to make critical independent decisions and prioritize appropriately."
+          ]
+        },
+        {
+          "term": "conflict resolution",
+          "count": 2,
+          "context_sentences": [
+            "Resolves conflicts."
+          ]
+        },
+        {
+          "term": "patient advocacy",
+          "count": 1,
+          "context_sentences": [
+            "Advocates the patient bill of rights and advocates on behalf of patients and families to ensure continuity and understanding of care given."
+          ]
+        }
+      ],
+      "qualifications": [
+        {
+          "term": "current registered nurse license",
+          "count": 4,
+          "context_sentences": [
+            "Current New York State Registered Professional Nursing license",
+            "NJ Registered Nurse certification required",
+            "Must possess a limited permit to practice nursing, issued by the New York State Education Department, or a valid license and current registration, issued by the New York State Education Department, as a Registered Nurse."
+          ]
+        },
+        {
+          "term": "current BLS certification",
+          "count": 3,
+          "context_sentences": [
+            "Current BCLS",
+            "Current BLS required"
+          ]
+        },
+        {
+          "term": "minimum 2-3 years nursing experience",
+          "count": 3,
+          "context_sentences": [
+            "Knowledge, skills, and abilities required to perform this job are typically acquired through a minimum of three years of progressively responsible experience in nursing including assessing patients.",
+            "Minimum of two years nursing experience"
+          ]
+        },
+        {
+          "term": "AAS/BS in Nursing degree",
+          "count": 3,
+          "context_sentences": [
+            "AAS/BS in Nursing Bachelors Degree Preferred",
+            "BSN Preferred. Completion of BSN is expected within 5 years of hire"
+          ]
+        },
+        {
+          "term": "ambulatory/medical surgery/ER experience preferred",
+          "count": 2,
+          "context_sentences": [
+            "Minimum of one year nursing experience in an Ambulatory/Medical Surgery/ER setting preferred."
+          ]
+        },
+        {
+          "term": "current infection control certificate",
+          "count": 2,
+          "context_sentences": [
+            "Current Infection Control Certificate"
+          ]
+        },
+        {
+          "term": "current child abuse certificate",
+          "count": 2,
+          "context_sentences": [
+            "Current Child Abuse Certificate"
+          ]
+        },
+        {
+          "term": "school nurse certification preferred",
+          "count": 1,
+          "context_sentences": [
+            "School Nurse certification preferred but not required."
+          ]
+        },
+        {
+          "term": "telephone triage experience",
+          "count": 2,
+          "context_sentences": [
+            "Demonstrated experience with telephone triage and diagnosis procedures."
+          ]
+        },
+        {
+          "term": "previous professional nursing experience preferred",
+          "count": 1,
+          "context_sentences": [
+            "Previous professional nursing experience preferred"
+          ]
+        }
+      ],
+      "unique_aspects": [
+        {
+          "term": "sign on bonus based on experience",
+          "count": 2,
+          "context_sentences": [
+            "SIGN ON BONUS BASED ON EXPERIENCE."
+          ]
+        },
+        {
+          "term": "full time and part time positions available",
+          "count": 3,
+          "context_sentences": [
+            "FT or PT, 10 month position",
+            "Position Type Full Time"
+          ]
+        },
+        {
+          "term": "10 month position",
+          "count": 1,
+          "context_sentences": [
+            "FT or PT, 10 month position, special education, alternative, and therapeutic settings for grades K-12+"
+          ]
+        },
+        {
+          "term": "special education and therapeutic settings",
+          "count": 1,
+          "context_sentences": [
+            "Special education, alternative, and therapeutic settings for grades K-12+"
+          ]
+        },
+        {
+          "term": "day shift positions",
+          "count": 3,
+          "context_sentences": [
+            "Job Shift Day"
+          ]
+        },
+        {
+          "term": "night shift positions",
+          "count": 1,
+          "context_sentences": [
+            "Hours: 7p-07:30a Shift: Nights"
+          ]
+        },
+        {
+          "term": "union positions available",
+          "count": 2,
+          "context_sentences": [
+            "Union: YES Union Name: NYSNA",
+            "Union: YES Union Name: 1199 - UHCWE"
+          ]
+        },
+        {
+          "term": "competitive hourly wages",
+          "count": 4,
+          "context_sentences": [
+            "Salary Range $83850.00 - $88850.00 Hourly",
+            "Salary Range $43.00 - $45.56 Hourly",
+            "Hiring Range: $42.85 - $57.35",
+            "Hiring Range: $51.95 - $61.36"
+          ]
+        },
+        {
+          "term": "equal employment opportunity employer",
+          "count": 2,
+          "context_sentences": [
+            "The Institute for Family Health is an Equal Employment Opportunity Employer."
+          ]
+        },
+        {
+          "term": "continuing education opportunities",
+          "count": 1,
+          "context_sentences": [
+            "Participates in continuing education programs and in-service education in order to provide the most appropriate nursing care."
+          ]
+        }
+      ]
+    },
+    "sample_job_titles": [
+      "Registered Nurse/School Nurse",
+      "REGISTERED NURSE",
+      "REGISTERED NURSE",
+      "Registered Nurse",
+      "Registered Nurse"
+    ]
+  },
+  "11-3031.00": {
+    "soc_code": "11-3031.00",
+    "total_jobs_found": 100,
+    "total_descriptions_analyzed": 100,
+    "analysis_results": {
+      "responsibilities": [
+        {
+          "term": "develop and manage annual budgets and forecasts",
+          "count": 3,
+          "context_sentences": [
+            "Develop and manage the annual budget, multi-year forecast, and long- and short-term financial plans.",
+            "7-10 years of progressive financial experience, including budget and forecast preparation, maintenance, variance analysis, and management.",
+            "Develops and maintains the Financial Plan for New Jersey Natural Gas and the associated financial model."
+          ]
+        },
+        {
+          "term": "analyze monthly financial statements",
+          "count": 2,
+          "context_sentences": [
+            "Analyze monthly financial statements and prepare quarterly forecasts, comparing actual results to budget and prior forecasts.",
+            "Oversee Monthly Balances."
+          ]
+        },
+        {
+          "term": "prepare quarterly forecasts and variance analysis",
+          "count": 2,
+          "context_sentences": [
+            "Analyze monthly financial statements and prepare quarterly forecasts, comparing actual results to budget and prior forecasts.",
+            "7-10 years of progressive financial experience, including budget and forecast preparation, maintenance, variance analysis, and management."
+          ]
+        },
+        {
+          "term": "develop and maintain financial models",
+          "count": 3,
+          "context_sentences": [
+            "Develops and maintains the Financial Plan for New Jersey Natural Gas and the associated financial model.",
+            "Developing and enhancing income statement and balance forecast models",
+            "Develop and implement robust PPNR models, including revenue forecasting and risk assessment for banking and trading operations."
+          ]
+        },
+        {
+          "term": "collaborate with business leaders and management",
+          "count": 2,
+          "context_sentences": [
+            "Collaborate with business leaders to provide financial guidance and strategic recommendations.",
+            "You'll serve as a key business partner, translating financial results and concepts while collaborating with management."
+          ]
+        },
+        {
+          "term": "process invoices and billing services",
+          "count": 1,
+          "context_sentences": [
+            "Billing Services. Processing Invoices."
+          ]
+        },
+        {
+          "term": "track expenses and maintain financial records",
+          "count": 1,
+          "context_sentences": [
+            "Track Expenses. Maintain Fin records."
+          ]
+        },
+        {
+          "term": "perform US GAAP financial statement compilation",
+          "count": 1,
+          "context_sentences": [
+            "Perform US GAAP financial statement compilation, US GAAP & IFRS accounting research & IFRS head office reporting"
+          ]
+        },
+        {
+          "term": "conduct model validation and performance monitoring",
+          "count": 1,
+          "context_sentences": [
+            "Conduct model validation and performance monitoring to ensure accuracy and compliance with regulatory standards."
+          ]
+        },
+        {
+          "term": "identify trends, risks, and opportunities through analysis",
+          "count": 2,
+          "context_sentences": [
+            "Identify trends, risks, and opportunities through in-depth financial analysis and recommend data-driven actions.",
+            "Identify and quantify risks associated with revenue generation, including market risk, credit risk, operational risk, and liquidity risk."
+          ]
+        },
+        {
+          "term": "support regulatory affairs with financial analysis",
+          "count": 1,
+          "context_sentences": [
+            "Support regulatory affairs with financial analysis for rate case planning."
+          ]
+        },
+        {
+          "term": "manage projects and coordinate with stakeholders",
+          "count": 2,
+          "context_sentences": [
+            "Proven ability to manage multiple projects and collaborate effectively in a team environment.",
+            "Manage projects and deepen relationships with internal and external counterparties to enhance institutional knowledge to support the forecasting/capital management processes."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "term": "advanced proficiency in Microsoft Excel",
+          "count": 3,
+          "context_sentences": [
+            "Advanced proficiency in Excel and financial modeling.",
+            "Significant knowledge and experience with statistical software (E.g. Python, SAS, etc.) as well as Microsoft Excel in a business environment.",
+            "Ability to model and troubleshoot existing financial forecasts and projections."
+          ]
+        },
+        {
+          "term": "financial modeling and forecasting",
+          "count": 3,
+          "context_sentences": [
+            "Advanced proficiency in Excel and financial modeling.",
+            "economic and financial modeling, evaluating the impact of corporate strategies",
+            "Ability to model and troubleshoot existing financial forecasts and projections."
+          ]
+        },
+        {
+          "term": "statistical software (Python, SAS)",
+          "count": 1,
+          "context_sentences": [
+            "Significant knowledge and experience with statistical software (E.g. Python, SAS, etc.) as well as Microsoft Excel in a business environment."
+          ]
+        },
+        {
+          "term": "US GAAP and IFRS accounting knowledge",
+          "count": 1,
+          "context_sentences": [
+            "Perform US GAAP financial statement compilation, US GAAP & IFRS accounting research & IFRS head office reporting"
+          ]
+        },
+        {
+          "term": "variance analysis and budget management",
+          "count": 2,
+          "context_sentences": [
+            "7-10 years of progressive financial experience, including budget and forecast preparation, maintenance, variance analysis, and management.",
+            "general ledger variance analysis & maintaining accounting policy & procedure"
+          ]
+        },
+        {
+          "term": "statistical concepts and regression analysis",
+          "count": 1,
+          "context_sentences": [
+            "Robust understanding of statistical concepts, regression-based forecasting models and time series analysis."
+          ]
+        },
+        {
+          "term": "data analysis and pattern identification",
+          "count": 1,
+          "context_sentences": [
+            "Ability to effectively analyze large data sets and identify patterns and insights."
+          ]
+        },
+        {
+          "term": "presentation and communication skills",
+          "count": 2,
+          "context_sentences": [
+            "Good communication skills (presentation and written) with an ability to explain underlying drivers and key takeaways from modeled data outputs to technical and non-technical audiences.",
+            "Strategic thinker with the ability to present complex data and insights clearly and creatively."
+          ]
+        },
+        {
+          "term": "risk management and assessment",
+          "count": 1,
+          "context_sentences": [
+            "Familiarity with risk management principles and practices in financial institutions."
+          ]
+        },
+        {
+          "term": "regulatory compliance knowledge",
+          "count": 1,
+          "context_sentences": [
+            "Knowledge of relevant regulatory requirements (e.g., Basel III, Dodd-Frank, SR 11-7) is a plus."
+          ]
+        }
+      ],
+      "qualifications": [
+        {
+          "term": "bachelor's degree in finance, accounting, or related field",
+          "count": 3,
+          "context_sentences": [
+            "Bachelor's degree in Finance, Accounting, Economics, or a related field; graduate degree or MBA preferred.",
+            "Employer will accept a Bachelor's degree or foreign equivalent degree, in Accounting or related field",
+            "Candidates with a Bachelor's degree in areas such as Statistics, Financial Engineering, Econometrics, Mathematics, Finance, Engineering or other advanced quantitative field."
+          ]
+        },
+        {
+          "term": "5-10 years of progressive financial experience",
+          "count": 2,
+          "context_sentences": [
+            "7-10 years of progressive financial experience, including budget and forecast preparation, maintenance, variance analysis, and management.",
+            "5-7 years of relevant work experience in the financial services industry."
+          ]
+        },
+        {
+          "term": "master's degree or MBA preferred",
+          "count": 2,
+          "context_sentences": [
+            "Bachelor's degree in Finance, Accounting, Economics, or a related field; graduate degree or MBA preferred.",
+            "Masters a plus."
+          ]
+        },
+        {
+          "term": "3-5 years of management experience",
+          "count": 1,
+          "context_sentences": [
+            "3-5 years of management experience."
+          ]
+        },
+        {
+          "term": "utility industry experience preferred",
+          "count": 1,
+          "context_sentences": [
+            "Utility industry experience is preferred."
+          ]
+        },
+        {
+          "term": "1 year of relevant experience",
+          "count": 1,
+          "context_sentences": [
+            "1 year of experience in the job offered or in a Associate (Financial Management Department)-related occupation."
+          ]
+        },
+        {
+          "term": "eligible to work in US without sponsorship",
+          "count": 1,
+          "context_sentences": [
+            "Eligible to work in the U.S. without sponsorship."
+          ]
+        }
+      ],
+      "unique_aspects": [
+        {
+          "term": "flexible work schedules and telecommute options",
+          "count": 2,
+          "context_sentences": [
+            "you'll find a friendly, community-minded environment, with flexible work schedules, opportunities for growth and development, and competitive pay and benefits.",
+            "May telecommute."
+          ]
+        },
+        {
+          "term": "401k program with company match",
+          "count": 1,
+          "context_sentences": [
+            "401(k) program with generous company match."
+          ]
+        },
+        {
+          "term": "medical insurance coverage from day 1",
+          "count": 1,
+          "context_sentences": [
+            "Benefits: Medical insurance coverage from day 1; 401k vesting immediate."
+          ]
+        },
+        {
+          "term": "tuition reimbursement program",
+          "count": 1,
+          "context_sentences": [
+            "Tuition reimbursement program."
+          ]
+        },
+        {
+          "term": "company stock purchase plan",
+          "count": 1,
+          "context_sentences": [
+            "Company stock purchase plan."
+          ]
+        },
+        {
+          "term": "wellness programs and fitness centers",
+          "count": 1,
+          "context_sentences": [
+            "Wellness programs, including free on and off-site fitness centers."
+          ]
+        },
+        {
+          "term": "annual short term incentive program",
+          "count": 1,
+          "context_sentences": [
+            "This role will be eligible to participate in an annual short term incentive program."
+          ]
+        },
+        {
+          "term": "discretionary bonus eligibility",
+          "count": 1,
+          "context_sentences": [
+            "successful candidates are eligible to receive a discretionary bonus."
+          ]
+        },
+        {
+          "term": "career rotation and development opportunities",
+          "count": 1,
+          "context_sentences": [
+            "Employees are expected to support all areas of the Finance department, rotating into different roles to facilitate career growth and development as needed or as assigned."
+          ]
+        },
+        {
+          "term": "employee assistance program",
+          "count": 1,
+          "context_sentences": [
+            "Employee Assistance Program (EAP)."
+          ]
+        },
+        {
+          "term": "competitive salary ranges $71k-$175k",
+          "count": 4,
+          "context_sentences": [
+            "Salary: $74,360/yr.",
+            "Expected base pay range for this role will be $115,900- $147,700.",
+            "The expected base salary ranges from $85, 000 - $175, 000.",
+            "Salary: $71,136.00 - $90,000.00/year."
+          ]
+        }
+      ]
+    },
+    "sample_job_titles": [
+      "Financial Manager",
+      "Manager Financial Planning and Analysis",
+      "Financial Resource Management Lead",
+      "Associate (Financial Management Department)",
+      "Manager Financial Planning and Analysis"
+    ]
+  },
+  "15-1252.00": {
+    "soc_code": "15-1252.00",
+    "total_jobs_found": 100,
+    "total_descriptions_analyzed": 100,
+    "analysis_results": {
+      "responsibilities": [
+        {
+          "term": "design and develop software applications",
+          "count": 12,
+          "context_sentences": [
+            "Design and develop software applications as per client requirements.",
+            "Design and develop banking software using Appian, J2EE, JavaScript, Web Services, Agile Scrum",
+            "Design, develop, test, deploy, and deliver multi-tier software applications."
+          ]
+        },
+        {
+          "term": "analyze user needs and business requirements",
+          "count": 8,
+          "context_sentences": [
+            "Elicit requirements by conducting evaluations of clients' business needs and translate business requirements into technical requirements",
+            "Analyze user needs and develop software solutions, applying principles and techniques of computer science",
+            "Perform requirements gathering as per the business needs."
+          ]
+        },
+        {
+          "term": "perform testing and debugging",
+          "count": 10,
+          "context_sentences": [
+            "Test and debug software application prototypes.",
+            "Perform code review and debugging.",
+            "Perform unit test and debug application issues using Junit."
+          ]
+        },
+        {
+          "term": "develop and maintain databases",
+          "count": 7,
+          "context_sentences": [
+            "May maintain databases within an application area, working individually or coordinating database development as part of a team.",
+            "Design and develop software application solutions for banking data management using AWS, MySQL, Hadoop Ecosystems",
+            "Develop business APIs and data libraries using Algorithm, Object-Oriented programming, database Management systems"
+          ]
+        },
+        {
+          "term": "create technical documentation",
+          "count": 6,
+          "context_sentences": [
+            "Develop, design documentation and unit test cases.",
+            "Document the development, testing, and implementation of systems.",
+            "Analyze business requirements, compile BRD, and develop detailed technical specification document"
+          ]
+        },
+        {
+          "term": "integrate software systems and APIs",
+          "count": 8,
+          "context_sentences": [
+            "May work with computer hardware engineers to integrate hardware and software systems",
+            "Develop and use off the shelf interfaces and APIs to Integrate salesforce applications.",
+            "Develop software interfaces including stored procedures, web panel and message center development"
+          ]
+        },
+        {
+          "term": "collaborate with business teams and clients",
+          "count": 7,
+          "context_sentences": [
+            "Interact and coordinate with business groups at various stages of application development",
+            "Working as a liaison with various clients concerning planning, time estimates, prioritization",
+            "Confer with users to gather and analyze functional requirements"
+          ]
+        },
+        {
+          "term": "optimize application performance",
+          "count": 6,
+          "context_sentences": [
+            "Improve performance of applications.",
+            "Analyze and optimize vast data stores using Apache Spark, Python, MapReduce",
+            "Monitor performance and troubleshoot issues in Virtual Machine."
+          ]
+        },
+        {
+          "term": "conduct code reviews",
+          "count": 5,
+          "context_sentences": [
+            "Perform code review and debugging.",
+            "Review software architecture and design for bugs and other flaws",
+            "Guide the software design and development process and resolve complex software design issues"
+          ]
+        },
+        {
+          "term": "deploy and implement software solutions",
+          "count": 8,
+          "context_sentences": [
+            "Design, develop, test, deploy, and deliver multi-tier software applications.",
+            "design, develop, test, implement application software utilizing Java, JavaScript",
+            "Carrying out unit, system, integration and user acceptance tests before production implementation."
+          ]
+        },
+        {
+          "term": "develop web services and APIs",
+          "count": 7,
+          "context_sentences": [
+            "Design and develop banking software using Appian, J2EE, JavaScript, Web Services",
+            "Design and develop scalable high-performance web services for data tracking",
+            "Create API content, including logistics information, commodity pricing, client data"
+          ]
+        },
+        {
+          "term": "perform data analysis and processing",
+          "count": 6,
+          "context_sentences": [
+            "Analyze and optimize vast data stores using Apache Spark, Python, MapReduce",
+            "Automate processing for data storage using Data Mining and Big Data",
+            "Design and develop software application solutions for banking data management"
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "term": "Java programming",
+          "count": 8,
+          "context_sentences": [
+            "Analyze, develop and test multi-tier Enterprise applications using various technologies such as Java Map Reduce",
+            "Design and develop software applications for telecommunication systems using Java 8",
+            "design, develop, test, implement application software utilizing Java, JavaScript"
+          ]
+        },
+        {
+          "term": "SQL and database management",
+          "count": 10,
+          "context_sentences": [
+            "All of the above duties will be performed using skills in SQL, JSON, MS Dynamics CRM",
+            "Design and develop data management software for moving data migration and data extraction using .Net, Oracle SQL",
+            "Develop business APIs and data libraries using Algorithm, Object-Oriented programming, database Management systems, Database design, SQL"
+          ]
+        },
+        {
+          "term": "JavaScript programming",
+          "count": 7,
+          "context_sentences": [
+            "Design and develop banking software using Appian, J2EE, JavaScript, Web Services",
+            "Design and develop software application solutions for banking software using J2EE, Javascript, Web Services",
+            "design, develop, test, implement application software utilizing Java, JavaScript"
+          ]
+        },
+        {
+          "term": ".NET Framework and C#",
+          "count": 5,
+          "context_sentences": [
+            "Skills required: .Net Framework, C#, VB.Net, ASP.Net, CSS, APIs, JIRA, jQuery and Bootstrap.",
+            "Design and develop data management software for moving data migration and data extraction using .Net, Oracle SQL",
+            "Design, develop, and improve software performance using OLAP, ASP.Net, WPF, XML"
+          ]
+        },
+        {
+          "term": "Python programming",
+          "count": 5,
+          "context_sentences": [
+            "Analyze and optimize vast data stores using Apache Spark, Python, MapReduce",
+            "Design and develop software applications for retail customer management system using Python, Text Mining, Web Scraping",
+            "Analyze, develop and test multi-tier Enterprise applications using various technologies such as Java Map Reduce, YARN, Hive, Pig, Spark, GraphDB, Python"
+          ]
+        },
+        {
+          "term": "HTML and CSS",
+          "count": 6,
+          "context_sentences": [
+            "Design and develop software solutions using Mulesoft, JDBC, JBoss, HTML, JUnit",
+            "TypeScript, HTML, CSS, JSON, Angular, RESTful APIs and Git.",
+            "Skills required: .Net Framework, C#, VB.Net, ASP.Net, CSS, APIs, JIRA, jQuery and Bootstrap."
+          ]
+        },
+        {
+          "term": "Angular framework",
+          "count": 3,
+          "context_sentences": [
+            "All of the above duties will be performed using skills in SQL, JSON, MS Dynamics CRM, Angular, CSS, and GIT.",
+            "TypeScript, HTML, CSS, JSON, Angular, RESTful APIs and Git."
+          ]
+        },
+        {
+          "term": "Git version control",
+          "count": 4,
+          "context_sentences": [
+            "All of the above duties will be performed using skills in SQL, JSON, MS Dynamics CRM, Angular, CSS, and GIT.",
+            "Create API content, including logistics information, commodity pricing, client data and visualization reports using GitHub, mySQL",
+            "Design and develop software applications for telecommunication systems using Java 8, C++, Spring Boot, Git"
+          ]
+        },
+        {
+          "term": "Agile and Scrum methodology",
+          "count": 4,
+          "context_sentences": [
+            "Design and develop banking software using Appian, J2EE, JavaScript, Web Services, Agile Scrum",
+            "Analyze and define technical specifications and functional requirements for Scrum team and its deliverables",
+            "Design and develop software solutions using Mulesoft, JDBC, JBoss, HTML, JUnit, and Agile methodology"
+          ]
+        },
+        {
+          "term": "AWS cloud services",
+          "count": 3,
+          "context_sentences": [
+            "Design and develop software application solutions for banking data management using AWS, MySQL, Hadoop Ecosystems",
+            "Analyze, develop and test multi-tier Enterprise applications using various technologies such as Java Map Reduce, YARN, Hive, Pig, Spark, GraphDB, Python, AWS"
+          ]
+        },
+        {
+          "term": "JIRA project management",
+          "count": 4,
+          "context_sentences": [
+            "Analyze, review, and interpret all infrastructure in software functional requirements and technical specifications for software stages using Jira, Selenium",
+            "Skills required: .Net Framework, C#, VB.Net, ASP.Net, CSS, APIs, JIRA, jQuery and Bootstrap."
+          ]
+        },
+        {
+          "term": "XML data processing",
+          "count": 4,
+          "context_sentences": [
+            "Design and develop software application solutions for banking software using J2EE, Javascript, Web Services, XML",
+            "Design, develop, and improve software performance using OLAP, ASP.Net, WPF, XML, J2EE, MVC, LINQ",
+            "Automate processing for data storage using XML, SDLC, ETL, Oracle 9i"
+          ]
+        }
+      ],
+      "qualifications": [
+        {
+          "term": "Master's degree in Computer Science or related field",
+          "count": 9,
+          "context_sentences": [
+            "Master's degree in Computer Science, Software Engineering, Technology (Any) or related field plus 6 months of experience",
+            "Must have a Master's Degree or its equivalent in Computer Science, Computer Engineering, Electronics Engineering",
+            "Must have a Master's Degree in Computer Science, Computer Engineering, Software Engineering, Engineering, or Electronics Engineering"
+          ]
+        },
+        {
+          "term": "Bachelor's degree in Computer Science or related field",
+          "count": 4,
+          "context_sentences": [
+            "Bachelor's degree in Science, Technology, or Engineering (any) along with 2 years of experience",
+            "Requires a Bachelor's degree or equivalent in Computer Science, Engineering, Math, Science, Information Technology",
+            "BS in CS/IT/Sci or related or equivalent."
+          ]
+        },
+        {
+          "term": "2+ years of software development experience",
+          "count": 8,
+          "context_sentences": [
+            "plus 2 years experience in job offered",
+            "Bachelor's degree in Science, Technology, or Engineering (any) along with 2 years of experience in the job offered",
+            "Plus 2 years of experience in the field."
+          ]
+        },
+        {
+          "term": "Experience with specific programming languages",
+          "count": 12,
+          "context_sentences": [
+            "The required experience must include working with SQL, JSON, MS Dynamics CRM, Angular, CSS, and GIT.",
+            "Require skills and knowledge in Appian, J2EE, JavaScript, Web Services, Jira, Agile Scrum, Selenium.",
+            "Must have a Master's Degree in Computer Science plus skills and knowledge in Python, Object Oriented Design, GitHub, mySQL"
+          ]
+        },
+        {
+          "term": "Willingness to travel to client locations",
+          "count": 10,
+          "context_sentences": [
+            "Work location will include various unanticipated locations throughout the U.S.",
+            "Require 100 % travel to unanticipated client locations in USA.",
+            "Must be willing to travel to unanticipated client locations in the U.S."
+          ]
+        }
+      ],
+      "unique_aspects": [
+        {
+          "term": "Remote work and telecommuting options",
+          "count": 6,
+          "context_sentences": [
+            "Allow telecommuting.",
+            "Allow telecommuting. Range: $179,982-$185k/yr.",
+            "Allow telecommuting. $151,819~$153k/year."
+          ]
+        },
+        {
+          "term": "Competitive salary range $150k-$185k",
+          "count": 6,
+          "context_sentences": [
+            "Range: $179,982-$185k/yr.",
+            "$179,982-$185k/yr.",
+            "$151,819~$153k/year."
+          ]
+        },
+        {
+          "term": "Comprehensive benefits package",
+          "count": 2,
+          "context_sentences": [
+            "Benefits include Medical/Dental/Vision/Life, HSA/FSA, AD&D/STD/LTD, 401k, PTO.",
+            "Benefits include Medical/Dental/Vision/Life, HSA/FSA, AD&D/STD/LTD, 401k, PTO."
+          ]
+        },
+        {
+          "term": "100% travel requirement",
+          "count": 6,
+          "context_sentences": [
+            "Require 100 % travel to unanticipated client locations in USA.",
+            "Require 100% travel to unanticipated client locations in US.",
+            "Must be willing to travel for setting up various systems to various clients at unanticipated locations within the United States"
+          ]
+        },
+        {
+          "term": "Work with banking and financial systems",
+          "count": 4,
+          "context_sentences": [
+            "Design and develop banking software using Appian, J2EE, JavaScript, Web Services",
+            "Design and develop software application solutions for banking data management using AWS, MySQL",
+            "Design and develop software application solutions for banking software using J2EE, Javascript"
+          ]
+        },
+        {
+          "term": "Opportunity to work with cutting-edge technologies",
+          "count": 5,
+          "context_sentences": [
+            "Design and develop software applications for retail customer management system using Python, Text Mining, Web Scraping, Pandas, Object Oriented Design",
+            "Analyze and optimize vast data stores using Apache Spark, Python, MapReduce and Shell Scripting",
+            "Design and develop UI using Machine Learning"
+          ]
+        }
+      ]
+    },
+    "sample_job_titles": [
+      "Software Developer",
+      "Software Engineer",
+      "Application Developer",
+      "Systems Developer",
+      "Web Developer"
+    ]
+  }
+}

@@ -10,6 +10,7 @@ class Settings(BaseSettings):
     database_url: str
     onestop_api_key: str = ""
     onestop_user_id: str = ""
+    anthropic_api_key: str = ""
     supported_jobs: Optional[List[Dict[str, str]]] = None
 
     def __init__(self, **kwargs):
@@ -38,7 +39,8 @@ class Settings(BaseSettings):
         env_file = ".env"
         field_aliases = {
             "onestop_api_key": "ONESTOP_API_KEY",
-            "onestop_user_id": "ONESTOP_USER_ID"
+            "onestop_user_id": "ONESTOP_USER_ID",
+            "anthropic_api_key": "ANTHROPIC_API_KEY"
         }
 
 

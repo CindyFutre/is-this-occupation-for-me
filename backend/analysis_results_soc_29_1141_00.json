@@ -1,0 +1,343 @@
+{
+  "soc_code": "29-1141.00",
+  "total_jobs_found": 100,
+  "total_descriptions_analyzed": 99,
+  "analysis_results": {
+    "responsibilities": [
+      {
+        "term": "assess patients' physical, psychological, and emotional status",
+        "count": 4,
+        "context_sentences": [
+          "Provides direct nursing care to patients by assessing their physical, psychological, emotional and spiritual status.",
+          "The Registered Nurse provides direct nursing care by assessing patients' needs, performing physical examinations, and taking health history and demographic information.",
+          "Performs comprehensive patient assessments, noting any improvement or deterioration in the patient's condition and implements and evaluates nursing care accordingly."
+        ]
+      },
+      {
+        "term": "administer treatments, medications, and general care",
+        "count": 4,
+        "context_sentences": [
+          "Assesses patients and administers treatments, medications, and general care according to nursing plan of care, best practices, established protocols and medical orders.",
+          "The Registered Nurse plans, develops, implements, administers, evaluates and updates specialized plans of treatment and preventive care regimens in accordance with medical orders and nursing standards."
+        ]
+      },
+      {
+        "term": "develop and implement nursing care plans",
+        "count": 4,
+        "context_sentences": [
+          "Develops a plan of care consistent with the patient's condition and annotates medical records in accordance with established procedures and regulatory requirements.",
+          "The Registered Nurse plans, develops, implements, administers, evaluates and updates specialized plans of treatment and preventive care regimens."
+        ]
+      },
+      {
+        "term": "document patient care and maintain medical records",
+        "count": 4,
+        "context_sentences": [
+          "Annotates medical records in accordance with established procedures, implements infection control protocols, and ensures compliance with regulatory requirements.",
+          "Evaluates and documents patients' responses to care regimen and adds to; changes or resolves interventions on the nursing plan of care."
+        ]
+      },
+      {
+        "term": "coordinate care with healthcare team members",
+        "count": 3,
+        "context_sentences": [
+          "Collaborates with appropriate members of the health team (i.e.: LPN, Nurse's Aide, Attendants) to coordinate care for patients.",
+          "Coordinates care with other departments (i.e.: dietary, social services rehab services, etc.), serving as a liaison to ensure services are provided in a timely manner."
+        ]
+      },
+      {
+        "term": "provide patient and family education",
+        "count": 3,
+        "context_sentences": [
+          "Provides education to the patient and family about medication, medical treatments; disease specific information, follow up care.",
+          "Includes the patients and family in the process of care planning."
+        ]
+      },
+      {
+        "term": "perform telephone triage and diagnosis procedures",
+        "count": 2,
+        "context_sentences": [
+          "Demonstrated experience with telephone triage and diagnosis procedures.",
+          "Telephone communication skills with empathy, respect, restatement, using open-ended questions."
+        ]
+      },
+      {
+        "term": "operate specialized medical equipment",
+        "count": 2,
+        "context_sentences": [
+          "Operates specialized medical equipment."
+        ]
+      },
+      {
+        "term": "participate in discharge planning",
+        "count": 2,
+        "context_sentences": [
+          "Participates in discharge planning in collaboration with other health care providers and community resources to ensure full utilization of support services which address patient needs."
+        ]
+      },
+      {
+        "term": "evaluate patient responses to treatment",
+        "count": 2,
+        "context_sentences": [
+          "Evaluates and documents patients' responses to care regimen and adds to; changes or resolves interventions on the nursing plan of care.",
+          "Including evaluation of the patient's response to the care."
+        ]
+      },
+      {
+        "term": "implement infection control protocols",
+        "count": 2,
+        "context_sentences": [
+          "Implements infection control protocols, and ensures compliance with regulatory requirements."
+        ]
+      },
+      {
+        "term": "participate in quality assurance activities",
+        "count": 1,
+        "context_sentences": [
+          "Participates in Quality Assurance activities to ensure provision of optimum care and follow-up for patients."
+        ]
+      },
+      {
+        "term": "precept and mentor newer nursing staff",
+        "count": 1,
+        "context_sentences": [
+          "Precepts and mentors newer staff on the assigned unit.",
+          "May act as preceptor to new graduate nurses to ensure appropriate orientation to assigned units."
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "term": "computer applications and internet proficiency",
+        "count": 2,
+        "context_sentences": [
+          "Must be proficient in using computer applications and using the internet."
+        ]
+      },
+      {
+        "term": "multi-tasking abilities",
+        "count": 2,
+        "context_sentences": [
+          "Must be able to multi-task successfully."
+        ]
+      },
+      {
+        "term": "excellent communication and organizational skills",
+        "count": 2,
+        "context_sentences": [
+          "Excellent communication and organizational skills."
+        ]
+      },
+      {
+        "term": "telephone communication skills",
+        "count": 2,
+        "context_sentences": [
+          "Telephone communication skills with empathy, respect, restatement, using open-ended questions."
+        ]
+      },
+      {
+        "term": "critical independent decision making",
+        "count": 2,
+        "context_sentences": [
+          "Must have the ability to make critical independent decisions and prioritize appropriately."
+        ]
+      },
+      {
+        "term": "medication knowledge",
+        "count": 2,
+        "context_sentences": [
+          "Demonstrated knowledge of medications."
+        ]
+      },
+      {
+        "term": "patient assessment skills",
+        "count": 4,
+        "context_sentences": [
+          "Knowledge, skills, and abilities required to perform this job are typically acquired through a minimum of three years of progressively responsible experience in nursing including assessing patients."
+        ]
+      },
+      {
+        "term": "prioritization skills",
+        "count": 2,
+        "context_sentences": [
+          "Must have the ability to make critical independent decisions and prioritize appropriately."
+        ]
+      },
+      {
+        "term": "conflict resolution",
+        "count": 2,
+        "context_sentences": [
+          "Resolves conflicts."
+        ]
+      },
+      {
+        "term": "patient advocacy",
+        "count": 1,
+        "context_sentences": [
+          "Advocates the patient bill of rights and advocates on behalf of patients and families to ensure continuity and understanding of care given."
+        ]
+      }
+    ],
+    "qualifications": [
+      {
+        "term": "current registered nurse license",
+        "count": 4,
+        "context_sentences": [
+          "Current New York State Registered Professional Nursing license",
+          "NJ Registered Nurse certification required",
+          "Must possess a limited permit to practice nursing, issued by the New York State Education Department, or a valid license and current registration, issued by the New York State Education Department, as a Registered Nurse."
+        ]
+      },
+      {
+        "term": "current BLS certification",
+        "count": 3,
+        "context_sentences": [
+          "Current BCLS",
+          "Current BLS required"
+        ]
+      },
+      {
+        "term": "minimum 2-3 years nursing experience",
+        "count": 3,
+        "context_sentences": [
+          "Knowledge, skills, and abilities required to perform this job are typically acquired through a minimum of three years of progressively responsible experience in nursing including assessing patients.",
+          "Minimum of two years nursing experience"
+        ]
+      },
+      {
+        "term": "AAS/BS in Nursing degree",
+        "count": 3,
+        "context_sentences": [
+          "AAS/BS in Nursing Bachelors Degree Preferred",
+          "BSN Preferred. Completion of BSN is expected within 5 years of hire"
+        ]
+      },
+      {
+        "term": "ambulatory/medical surgery/ER experience preferred",
+        "count": 2,
+        "context_sentences": [
+          "Minimum of one year nursing experience in an Ambulatory/Medical Surgery/ER setting preferred."
+        ]
+      },
+      {
+        "term": "current infection control certificate",
+        "count": 2,
+        "context_sentences": [
+          "Current Infection Control Certificate"
+        ]
+      },
+      {
+        "term": "current child abuse certificate",
+        "count": 2,
+        "context_sentences": [
+          "Current Child Abuse Certificate"
+        ]
+      },
+      {
+        "term": "school nurse certification preferred",
+        "count": 1,
+        "context_sentences": [
+          "School Nurse certification preferred but not required."
+        ]
+      },
+      {
+        "term": "telephone triage experience",
+        "count": 2,
+        "context_sentences": [
+          "Demonstrated experience with telephone triage and diagnosis procedures."
+        ]
+      },
+      {
+        "term": "previous professional nursing experience preferred",
+        "count": 1,
+        "context_sentences": [
+          "Previous professional nursing experience preferred"
+        ]
+      }
+    ],
+    "unique_aspects": [
+      {
+        "term": "sign on bonus based on experience",
+        "count": 2,
+        "context_sentences": [
+          "SIGN ON BONUS BASED ON EXPERIENCE."
+        ]
+      },
+      {
+        "term": "full time and part time positions available",
+        "count": 3,
+        "context_sentences": [
+          "FT or PT, 10 month position",
+          "Position Type Full Time"
+        ]
+      },
+      {
+        "term": "10 month position",
+        "count": 1,
+        "context_sentences": [
+          "FT or PT, 10 month position, special education, alternative, and therapeutic settings for grades K-12+"
+        ]
+      },
+      {
+        "term": "special education and therapeutic settings",
+        "count": 1,
+        "context_sentences": [
+          "Special education, alternative, and therapeutic settings for grades K-12+"
+        ]
+      },
+      {
+        "term": "day shift positions",
+        "count": 3,
+        "context_sentences": [
+          "Job Shift Day"
+        ]
+      },
+      {
+        "term": "night shift positions",
+        "count": 1,
+        "context_sentences": [
+          "Hours: 7p-07:30a Shift: Nights"
+        ]
+      },
+      {
+        "term": "union positions available",
+        "count": 2,
+        "context_sentences": [
+          "Union: YES Union Name: NYSNA",
+          "Union: YES Union Name: 1199 - UHCWE"
+        ]
+      },
+      {
+        "term": "competitive hourly wages",
+        "count": 4,
+        "context_sentences": [
+          "Salary Range $83850.00 - $88850.00 Hourly",
+          "Salary Range $43.00 - $45.56 Hourly",
+          "Hiring Range: $42.85 - $57.35",
+          "Hiring Range: $51.95 - $61.36"
+        ]
+      },
+      {
+        "term": "equal employment opportunity employer",
+        "count": 2,
+        "context_sentences": [
+          "The Institute for Family Health is an Equal Employment Opportunity Employer."
+        ]
+      },
+      {
+        "term": "continuing education opportunities",
+        "count": 1,
+        "context_sentences": [
+          "Participates in continuing education programs and in-service education in order to provide the most appropriate nursing care."
+        ]
+      }
+    ]
+  },
+  "sample_job_titles": [
+    "Registered Nurse/School Nurse",
+    "REGISTERED NURSE",
+    "REGISTERED NURSE",
+    "Registered Nurse",
+    "Registered Nurse"
+  ]
+}
