@@ -8,139 +8,136 @@
       "count": 4,
       "context_sentences": [
         "Installs, maintains, and repairs electrical wiring, equipment, and fixtures",
-        "Installing several types of graphics/signage at various locations in the Northeast Region as well as other states if needed",
-        "Reads and interpret blueprints, plans, sketches, or product specifications to determine sequence and methods of assembly and installation of assigned products"
-      ]
-    },
-    {
-      "term": "diagnose and troubleshoot electrical systems",
-      "count": 3,
-      "context_sentences": [
-        "Diagnoses malfunctioning systems, apparatus, or components, using test equipment and hand tools to locate the cause of a breakdown and correct the problem",
-        "Analyzes, diagnoses, and resolves customer problems in a courteous, professional, timely, and accurate manner",
-        "performs diagnostic, service, and installation electrical work in residential customer's home"
+        "Installing several types of graphics/signage at various locations in the Northeast Region",
+        "Lay out and mark dimensions and reference lines in work area to determine actual locations of system components"
       ]
     },
     {
       "term": "read and interpret blueprints and technical drawings",
       "count": 3,
       "context_sentences": [
-        "Reads and interpret blueprints, plans, sketches, or product specifications to determine sequence and methods of assembly and installation of assigned products",
-        "the ability to read and comprehend technical manuals and blueprints",
-        "Lay out and mark dimensions and reference lines in work area to determine actual locations of system components, as described in drawings"
+        "Reads and interpret blueprints, plans, sketches, or product specifications to determine sequence and methods of assembly",
+        "Good communication skills, the ability to lift and carry up to 50 pounds, and the ability to read and comprehend technical manuals and blueprints",
+        "Stage and select materials based on information provided by salesman and estimator, as indicated on drawings"
       ]
     },
     {
-      "term": "inspect electrical systems for compliance and safety",
-      "count": 3,
-      "context_sentences": [
-        "Inspects electrical systems, equipment, or components to identify hazards, defects, or the need for adjustment or repair, and to ensure in compliance with codes",
-        "Thoroughly inspect projects before and after each install and email for approval upon completion",
-        "Tests electrical systems or continuity of circuits in electrical wiring, equipment, or fixtures, using testing devices"
-      ]
-    },
-    {
-      "term": "coordinate with customers and project teams",
-      "count": 3,
-      "context_sentences": [
-        "Attends on site coordination meetings with customer and salesman upon request of the Manager",
-        "Communicates with residential customer to answer questions, resolve problems, and ensure complete customer satisfaction",
-        "Clear communication with the installation team as to any issue on site"
-      ]
-    },
-    {
-      "term": "test electrical circuits and systems",
+      "term": "diagnose and troubleshoot electrical systems",
       "count": 2,
       "context_sentences": [
-        "Tests electrical systems or continuity of circuits in electrical wiring, equipment, or fixtures, using testing devices, such as ohmmeters, voltmet",
+        "Diagnoses malfunctioning systems, apparatus, or components, using test equipment and hand tools to locate the cause of a breakdown",
+        "Analyzes, diagnoses, and resolves customer problems in a courteous, professional, timely, and accurate manner"
+      ]
+    },
+    {
+      "term": "test electrical systems and circuits",
+      "count": 2,
+      "context_sentences": [
+        "Tests electrical systems or continuity of circuits in electrical wiring, equipment, or fixtures, using testing devices",
+        "Inspects electrical systems, equipment, or components to identify hazards, defects, or the need for adjustment or repair"
+      ]
+    },
+    {
+      "term": "coordinate with inspectors and officials",
+      "count": 2,
+      "context_sentences": [
+        "Work directly with local Fire Marshalls, Inspectors, and other officials in our effort to perform our work according to the rules",
+        "Attends on site coordination meetings with customer and salesman upon request of the Manager"
+      ]
+    },
+    {
+      "term": "ensure code compliance and safety standards",
+      "count": 3,
+      "context_sentences": [
+        "Ensures that work is performed in accordance with relevant codes",
+        "Provides trade, technical and code compliance leadership in all aspects of electrical duties",
+        "Inspects electrical systems, equipment, or components to identify hazards, defects, or the need for adjustment or repair, and to ensure in compliance with codes"
+      ]
+    },
+    {
+      "term": "lead and supervise electrical crews",
+      "count": 2,
+      "context_sentences": [
+        "Leads and oversees the work of lower level electrician/maintenance mechanics through the successful completion of projects",
+        "Work directly with other Journeymen or other crew leaders to ensure continuity of work"
+      ]
+    },
+    {
+      "term": "plan and organize electrical projects",
+      "count": 2,
+      "context_sentences": [
+        "Provides comprehensive plans for proposed work",
+        "Work with Management to develop crew schedules and determine resource requirements to maintain maximum efficiency"
+      ]
+    },
+    {
+      "term": "maintain customer relations and communication",
+      "count": 2,
+      "context_sentences": [
+        "Communicates with residential customer to answer questions, resolve problems, and ensure complete customer satisfaction",
+        "Great customer relations are required"
+      ]
+    },
+    {
+      "term": "conduct safety inspections and enforce protocols",
+      "count": 2,
+      "context_sentences": [
+        "Develops and Utilizes JSA (Job Safety Analysis) for each day's work",
+        "Ensures the use of proper safety equipment at all times and by all employees under his or her direction"
+      ]
+    },
+    {
+      "term": "operate electrical tools and testing equipment",
+      "count": 2,
+      "context_sentences": [
+        "Operate tools and equipment necessary to safely and efficiently complete assigned tasks",
         "using test equipment and hand tools to locate the cause of a breakdown and correct the problem"
       ]
     },
     {
-      "term": "supervise and train electrical crew members",
-      "count": 2,
-      "context_sentences": [
-        "Leads and oversees the work of lower level electrician/maintenance mechanics through the successful completion of projects",
-        "helping to ensure quality and proper training of Crew Leaders and Helpers"
-      ]
-    },
-    {
-      "term": "plan and organize electrical construction projects",
-      "count": 2,
-      "context_sentences": [
-        "planning, organizing, and controlling resources to maximize productivity and meet our end goal, which is meeting or beating the project budget",
-        "Provides comprehensive plans for proposed work"
-      ]
-    },
-    {
       "term": "stage and select electrical materials",
-      "count": 2,
+      "count": 1,
       "context_sentences": [
-        "Stage and select materials based on information provided by salesman and estimator, as indicated on drawings or other written instruction",
-        "Periodically reviews work plan to assure that all information, tools and materials required are present prior to beginning work"
-      ]
-    },
-    {
-      "term": "enforce safety policies and procedures",
-      "count": 2,
-      "context_sentences": [
-        "Aid in the education and enforcement of company policy and procedures, including site safety concerns",
-        "Develops and Utilizes JSA (Job Safety Analysis) for each day's work"
-      ]
-    },
-    {
-      "term": "work with inspectors and officials",
-      "count": 2,
-      "context_sentences": [
-        "Work directly with local Fire Marshalls, Inspectors, and other officials in our effort to perform our work according to the rules and guidelines set forth by State and National Agencies",
-        "Ensures that work is performed in accordance with relevant codes"
-      ]
-    },
-    {
-      "term": "maintain and repair electrical equipment",
-      "count": 2,
-      "context_sentences": [
-        "Installs, maintains, and repairs electrical wiring, equipment, and fixtures",
-        "performs diagnostic, service, and installation electrical work in residential customer's home"
+        "Stage and select materials based on information provided by salesman and estimator, as indicated on drawings or other written instruction"
       ]
     }
   ],
   "skills": [
     {
-      "term": "electrical code compliance knowledge",
-      "count": 3,
+      "term": "high voltage electrical systems knowledge",
+      "count": 1,
       "context_sentences": [
-        "Ensures that work is performed in accordance with relevant codes",
-        "Provides trade, technical and code compliance leadership in all aspects of electrical and mechanical duties",
-        "to ensure in compliance with codes"
+        "Must also have thorough knowledge of high voltage (over 2,000 up to 35,000) transmission and distribution equipment used in large industrial or utility distribution generation system"
       ]
     },
     {
-      "term": "high voltage electrical systems expertise",
+      "term": "electrical testing equipment proficiency",
       "count": 2,
       "context_sentences": [
-        "Must also have thorough knowledge of high voltage (over 2,000 up to 35,000) transmission and distribution equipment used in large industrial or utility distribution generation system",
-        "related to the distribution and safe utilization of electricity"
-      ]
-    },
-    {
-      "term": "electrical testing equipment operation",
-      "count": 2,
-      "context_sentences": [
-        "using test equipment and hand tools to locate the cause of a breakdown and correct the problem",
-        "Tests electrical systems or continuity of circuits in electrical wiring, equipment, or fixtures, using testing devices, such as ohmmeters, voltmet"
+        "using testing devices, such as ohmmeters, voltmeters",
+        "using test equipment and hand tools to locate the cause of a breakdown and correct the problem"
       ]
     },
     {
       "term": "blueprint reading and interpretation",
-      "count": 2,
+      "count": 3,
       "context_sentences": [
         "Reads and interpret blueprints, plans, sketches, or product specifications",
-        "the ability to read and comprehend technical manuals and blueprints"
+        "the ability to read and comprehend technical manuals and blueprints",
+        "Stage and select materials based on information provided by salesman and estimator, as indicated on drawings"
       ]
     },
     {
-      "term": "electrical estimation and planning",
+      "term": "electrical code knowledge",
+      "count": 3,
+      "context_sentences": [
+        "Ensures that work is performed in accordance with relevant codes",
+        "Provides trade, technical and code compliance leadership in all aspects of electrical duties",
+        "to ensure in compliance with codes"
+      ]
+    },
+    {
+      "term": "project planning and estimation",
       "count": 2,
       "context_sentences": [
         "Must have training in estimating and planning electrical work",
@@ -148,51 +145,45 @@
       ]
     },
     {
-      "term": "customer service and communication skills",
-      "count": 2,
+      "term": "customer service and communication",
+      "count": 3,
       "context_sentences": [
         "Excellent customer service and communication skills both verbally and in writing",
-        "Good communication skills"
+        "Good communication skills",
+        "Communicates with residential customer to answer questions, resolve problems"
       ]
     },
     {
-      "term": "hand tools and electrical equipment operation",
+      "term": "safety protocol implementation",
       "count": 2,
       "context_sentences": [
-        "Operate tools and equipment necessary to safely and efficiently complete assigned tasks",
+        "Understands, complies, and enforces OSHA safety requirements",
+        "Develops and Utilizes JSA (Job Safety Analysis) for each day's work"
+      ]
+    },
+    {
+      "term": "hand tools and power tools operation",
+      "count": 2,
+      "context_sentences": [
+        "using test equipment and hand tools to locate the cause of a breakdown",
         "Must be able to use basic installation equipment"
       ]
     },
     {
-      "term": "OSHA safety requirements knowledge",
+      "term": "physical ability to lift 50 pounds",
       "count": 1,
       "context_sentences": [
-        "Understands, complies, and enforces OSHA safety requirements"
-      ]
-    },
-    {
-      "term": "project management and scheduling",
-      "count": 1,
-      "context_sentences": [
-        "Work with Management to develop crew schedules and determine resource requirements to maintain maximum efficiency and production for each job"
-      ]
-    },
-    {
-      "term": "electrical troubleshooting techniques",
-      "count": 1,
-      "context_sentences": [
-        "Diagnoses malfunctioning systems, apparatus, or components, using test equipment and hand tools to locate the cause of a breakdown"
+        "Good communication skills, the ability to lift and carry up to 50 pounds"
       ]
     }
   ],
   "qualifications": [
     {
-      "term": "Master Electrician certification or license",
-      "count": 3,
+      "term": "Master Electrician certification",
+      "count": 2,
       "context_sentences": [
         "This individual must hold a Master Electrician certification in both Kentucky and Ohio",
-        "Licensure as an electrical contractor by the State of New Jersey",
-        "Master Electrician certification in both Kentucky and Ohio"
+        "Licensure as an electrical contractor by the State of New Jersey"
       ]
     },
     {
@@ -200,17 +191,16 @@
       "count": 3,
       "context_sentences": [
         "High school diploma or general education degree (GED)",
-        "High school/vocational school education or equivalent",
-        "High School Diploma or equivalent work experience"
+        "High School Diploma or equivalent work experience",
+        "High school/vocational school education or equivalent"
       ]
     },
     {
       "term": "valid driver's license",
-      "count": 3,
+      "count": 2,
       "context_sentences": [
         "Valid Driver's license",
-        "A valid driver's license with two years driving experience is necessary",
-        "Must maintain License while in the job title"
+        "A valid driver's license with two years driving experience is necessary"
       ]
     },
     {
@@ -218,22 +208,29 @@
       "count": 2,
       "context_sentences": [
         "Must have at least 3 years direct installation experience",
-        "minimum of 2 years' experience"
+        "seeking a FULL TIME Graphic Installer with a minimum of 2 years' experience"
       ]
     },
     {
-      "term": "electrical installation experience",
-      "count": 2,
-      "context_sentences": [
-        "Must have at least 3 years direct installation experience",
-        "Must have working knowledge of sign making and production in order to best determine install methods for various displays"
-      ]
-    },
-    {
-      "term": "ability to lift 50 pounds",
+      "term": "electrical contractor license",
       "count": 1,
       "context_sentences": [
-        "the ability to lift and carry up to 50 pounds"
+        "Licensure as an electrical contractor by the State of New Jersey"
+      ]
+    },
+    {
+      "term": "training in electrical work estimation",
+      "count": 2,
+      "context_sentences": [
+        "Must have training in estimating and planning electrical work",
+        "Must have training in estimating and planning electrical work"
+      ]
+    },
+    {
+      "term": "clean driving record",
+      "count": 1,
+      "context_sentences": [
+        "Clean Driving Record"
       ]
     },
     {
@@ -241,13 +238,6 @@
       "count": 1,
       "context_sentences": [
         "May be required to obtain a Commercial Drivers License"
-      ]
-    },
-    {
-      "term": "defensive driving course completion",
-      "count": 1,
-      "context_sentences": [
-        "Will be required to successfully complete the Rutgers Defensive Driving Course"
       ]
     }
   ],
@@ -263,8 +253,7 @@
       "term": "21-26 paid days off annually",
       "count": 1,
       "context_sentences": [
-        "21 paid days off within your first year of employment (vacation, personal holidays, & national holidays)",
-        "26 paid days off after your 2nd year of employment"
+        "21 paid days off within your first year of employment (vacation, personal holidays, & national holidays), 26 paid days off after your 2nd year"
       ]
     },
     {
@@ -275,57 +264,73 @@
       ]
     },
     {
-      "term": "internal training academy available",
-      "count": 1,
+      "term": "comprehensive medical, dental, vision insurance",
+      "count": 2,
       "context_sentences": [
-        "We'll make you better at what you do with our internal Training Academy"
+        "Company-sponsored Medical, Dental, and Vision Insurance programs",
+        "Medical, prescription drug, and dental coverage"
       ]
     },
     {
-      "term": "401k with company matching",
+      "term": "401k retirement plan with company matching",
       "count": 1,
       "context_sentences": [
         "Best-in-class 401(k) Retirement Savings Plan with attractive company matching contributions"
       ]
     },
     {
-      "term": "medical, dental, and vision insurance",
+      "term": "internal training academy provided",
       "count": 1,
       "context_sentences": [
-        "Hold on to your more of your paycheck with Company-sponsored Medical, Dental, and Vision Insurance programs"
+        "We'll make you better at what you do with our internal Training Academy"
       ]
     },
     {
-      "term": "advancement opportunities across the U.S.",
+      "term": "tool replacement program",
+      "count": 1,
+      "context_sentences": [
+        "Company-provided smart phone, tablet, uniform plan, and tool replacement program"
+      ]
+    },
+    {
+      "term": "career advancement opportunities",
       "count": 1,
       "context_sentences": [
         "Ready to get out of your work truck? We have ample advancement and career-growth opportunities available across the U.S."
       ]
     },
     {
-      "term": "after hours and weekend work required",
+      "term": "flexible work schedule options",
       "count": 1,
       "context_sentences": [
         "Must be available to occasionally install after hours and weekends as needed"
       ]
     },
     {
-      "term": "travel to multiple states required",
-      "count": 1,
+      "term": "life insurance coverage provided",
+      "count": 2,
       "context_sentences": [
-        "Installing several types of graphics/signage at various locations in the Northeast Region as well as other states if needed"
+        "Company-paid employee Life Insurance with options for YOU and your Family",
+        "Life insurance coverage"
       ]
     },
     {
-      "term": "standard Monday-Friday schedule",
+      "term": "disability insurance options",
       "count": 1,
       "context_sentences": [
-        "Shift hours/Schedule: Monday - Friday, 7:00 am - 3:30 pm"
+        "Short-term and Long-term disability insurance options that will protect you and your family"
+      ]
+    },
+    {
+      "term": "employee educational benefits",
+      "count": 1,
+      "context_sentences": [
+        "Employee and dependent educational benefits"
       ]
     }
   ],
   "_cache_metadata": {
-    "cached_at": "2025-06-26T20:05:09.297968",
+    "cached_at": "2025-06-30T08:05:41.510512",
     "soc_code": "47-2111.00",
     "job_title": "Electricians",
     "cache_key": "43359e6a95a269a4a0c2c4c298f6c678"

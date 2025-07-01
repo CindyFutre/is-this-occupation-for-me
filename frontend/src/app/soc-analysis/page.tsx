@@ -141,16 +141,16 @@ export default function SOCAnalysisPage() {
           <Table>
             <TableHeader>
               <TableRow className="border-slate-700 hover:bg-slate-800/50">
-                <TableHead className="text-slate-300 font-semibold py-4 px-6" style={{ width: '25%' }}>
+                <TableHead className="text-slate-300 font-semibold w-1/4">
                   <div className="flex items-center gap-2">
                     <span className="text-lg">{getEmoji(category)}</span>
                     Term
                   </div>
                 </TableHead>
-                <TableHead className="text-slate-300 font-semibold py-4 px-6 text-center" style={{ width: '50%' }}>
+                <TableHead className="text-slate-300 font-semibold text-center w-1/2">
                   Frequency
                 </TableHead>
-                <TableHead className="text-slate-300 font-semibold py-4 px-6" style={{ width: '25%' }}>
+                <TableHead className="text-slate-300 font-semibold w-1/4">
                   Context Examples
                 </TableHead>
               </TableRow>
@@ -161,12 +161,12 @@ export default function SOCAnalysisPage() {
                   key={index}
                   className="border-slate-700 hover:bg-slate-800/30 transition-colors duration-200"
                 >
-                  <TableCell className="py-8 px-6">
+                  <TableCell className="py-6">
                     <div className="font-bold text-slate-100 text-base leading-relaxed">
                       {term.term}
                     </div>
                   </TableCell>
-                  <TableCell className="py-8 px-6 text-center">
+                  <TableCell className="py-6 text-center">
                     <Badge
                       variant="outline"
                       className={`${getBadgeColor(category)} font-semibold px-3 py-1 text-sm`}
@@ -174,7 +174,7 @@ export default function SOCAnalysisPage() {
                       {term.count} {term.count === 1 ? 'job' : 'jobs'}
                     </Badge>
                   </TableCell>
-                  <TableCell className="py-8 px-6">
+                  <TableCell className="py-6">
                     {term.context_sentences.length > 0 ? (
                       <div className="space-y-3">
                         {term.context_sentences.slice(0, 2).map((sentence, idx) => (
